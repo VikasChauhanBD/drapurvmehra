@@ -250,23 +250,13 @@ function App() {
         />
 
         <Route
-          path="/error-404"
+          path="*"
           element={
             <Layout showSharedComponents={false}>
               <Error404 />
             </Layout>
           }
         />
-
-        {/* For testing */}
-        {/* <Route
-          path="/testing"
-          element={
-            <Layout showSharedComponents={false}>
-              <Error404 />
-            </Layout>
-          }
-        /> */}
       </Routes>
     </BrowserRouter>
   );

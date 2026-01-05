@@ -321,7 +321,7 @@ function Footer() {
       <footer className="lower-footer">
         <hr />
         <p>
-          &copy; 2025 Dr. Apurv Mehra. All rights reserved | Designed & Managed
+          &copy; 2026 Dr. Apurv Mehra. All rights reserved | Designed & Managed
           By: <NavLink>Believers Destination Pvt Ltd</NavLink>
         </p>
       </footer>
