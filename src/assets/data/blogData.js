@@ -1,5 +1,69 @@
 const blogData = [
   {
+    id: "the-phase-of-entrance-exams-and-why-it-hurts-so-much-insight-by-dr-apurv-mehra",
+    blogDate: "January 09, 2026",
+    image:
+      "https://cdn.dribbble.com/userupload/46320885/file/c445db8310599ff73c9d62786b9483ee.jpeg",
+    metaTitle:
+      "The Phase of Entrance Exams & Why It Hurts So Much Insight by Dr. Apurv Mehra",
+    metaDesc:
+      "The entrance exam phase hurts with pressure, doubt, and delay, but as Dr. Apurv Mehra explains, it quietly builds resilience, clarity, and mental strength.",
+    author: "Dr. Apurv Mehra",
+    tags: [
+      "Medical Education",
+      "NEET PG",
+      "Motivation",
+      "Entrance Exams",
+      "Mental Health",
+    ],
+    para: `If you are in the middle of entrance exam preparation, there's a feeling you probably can't explain properly. It's not just stress. It's not just fear. It's a strange mix of hope, doubt, exhaustion, and pressure that sits quietly in your mind every single day.
+
+<p>And that's why this phase hurts.</p>
+
+<h4>Why This Phase Feels So Heavy</h4>
+
+<p>From childhood, we grow up believing that hard work always leads to a happy ending. Stories, movies, even our elders reinforce that idea. But entrance exams don't follow a predictable script. You may work sincerely, give multiple attempts, and still fall short. Not because you're incapable-but because outcomes here are uncertain.</p>
+
+<p>That uncertainty is what makes this journey emotionally draining. You don't know when the ending will come. Or what kind of ending it will be.</p>
+
+<p>But maybe this phase isn't meant to be comfortable. Maybe it's meant to <b>change you.</b></p>
+
+<h4>Selection Is Important-but It's Not Everything</h4>
+
+<p>Most aspirants do get selected-some earlier, some later. You get a college, a seat, a branch, and slowly that institution becomes part of your professional identity. For some, that feels enough. For others, there's still a voice inside saying, <b>"I can do better."</b></p>
+
+<p>That desire to aim higher isn't a weakness. It's human nature. We're always trying to climb a little more, reach a little higher. But higher goals demand more patience, more self-discipline, and more inner strength.</p>
+
+<h4>The Real Test Is Self-Honesty</h4>
+
+<p>One of the toughest things this phase teaches is honesty with yourself. When things don't work out, it's easy to blame luck, timing, or the system. But real growth starts when you quietly ask yourself what truly went wrong-and accept the answer without excuses.</p>
+
+<p>If you can be honest about your gaps and willing to improve them, even slowly, you are already ahead. Learning just one new thing every day, consistently, changes more than you realise.</p>
+
+<h4>Why Failure Is Actually Preparing You</h4>
+
+<p>Failure feels cruel when you're going through it. But later, you realise it builds something important inside you-composure. People who have failed once learn how to stay calm when things don't go their way. They learn how to think clearly under pressure.</p>
+
+<p>That skill matters far beyond entrance exams. It matters in clinics, operation theatres, emergency situations, and real-life decisions where panic is not an option.</p>
+
+<h4>Showing Up Matters More Than Results</h4>
+
+<p>Not everyone who appears for an exam gets the result they want. But those who stop showing up lose something more valuable-the chance to grow. Appearing again after disappointment takes courage. Correcting mistakes takes humility. Trying once more takes belief.</p>
+
+<p>That cycle-attempt, failure, reflection, improvement-is where transformation happens.</p>
+
+<h4>Conclusion: Trust This Phase, Even When It Feels Unfair</h4>
+
+<p>This phase may feel thankless right now. You're studying while others rest. You're doubting yourself while still pushing forward. But something important is happening quietly-you're becoming stronger, more aware, and more resilient.</p>
+
+<p>One day, when this phase is behind you, you'll realise it wasn't wasted time. It was preparation.</p>
+
+<h4>Want More Such Honest, Insightful Guidance?</h4>
+
+<p>👉 👉 <b><a href="https://www.youtube.com/@DrApurvMehra" target="_blank">Subscribe to Dr. Apurv Mehra's YouTube channel</a></b> for more such insightful sessions and start your journey with expert guidance.</p>
+`,
+  },
+  {
     id: "what-i-learned-when-i-was-the-only-one-without-a-rank-at-maulana-azad-medical-college",
     blogDate: "December 30, 2025",
     image:
