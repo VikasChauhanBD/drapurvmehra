@@ -59,7 +59,7 @@ const studentsData = [
     image: MaleAvatar,
     name: "Dr. Prajj",
     subReview:
-      " A big thank you to Dr. Apurv sir for constantly motivating us. Addressing our concerns and making us feel seen and heard. They are so understanding. ",
+      " A big thank you to Dr. Apurv sir for constantly motivating us. Addressing our concerns and making us feel seen and heard. They are so ",
     review:
       " A big thank you to Dr. Apurv sir for constantly motivating us. Addressing our concerns and making us feel seen and heard. They are so understanding. They help you unlock your true potential, provided you learn from the wisdom they provide. A word of gratitude to the entire team as well - they relentlessly work hard to provide us with whatever we might need. ",
   },
@@ -68,7 +68,7 @@ const studentsData = [
       "https://cdn.dribbble.com/userupload/44901544/file/30c9fd2ec226d6c52d092de03b572632.png",
     name: "Dr. Kanishka Singh",
     subReview:
-      " Vidya jeevan is a gorgeous place. There are some places, some experiences that teach us a lot. This is one such place. Thankful that we had ",
+      " Vidya jeevan is a gorgeous place. There are some places, some experiences that teach us a lot. This is one such place. Thankful that we ",
     review:
       " Vidya jeevan is a gorgeous place. There are some places, some experiences that teach us a lot. This is one such place. Thankful that we had great mentor Dr. Apurv Sir They have not only motivated us to be good doctors but to be good humans as well. Very wholesome and very gorgeous experience✨ ",
   },
@@ -76,7 +76,7 @@ const studentsData = [
     image: FemaleAvatar,
     name: "Dr. Mansi Ahuja",
     subReview:
-      " Thank you so much to whole Vidya Jeevan team And special thanks to Dr. Apurv sir Who made best educational institute for doctors Our real hero's ",
+      " Thank you so much to whole Vidya Jeevan team And special thanks to Dr. Apurv sir Who made best educational institute for doctors Our real ",
     review:
       " Thank you so much to whole Vidya Jeevan team And special thanks to Dr. Apurv sir Who made best educational institute for doctors Our real hero's ",
   },
@@ -84,7 +84,7 @@ const studentsData = [
     image: FemaleAvatar,
     name: "Dr. Arushi Vahie",
     subReview:
-      " This place is a safe haven for all NEET PG aspirants. It offers a very positive and calming experience. Being in the presence Dr. Apurv Sir makes ",
+      " This place is a safe haven for all NEET PG aspirants. It offers a very positive and calming experience. Being in the presence Dr. Apurv Sir ",
     review:
       " This place is a safe haven for all NEET PG aspirants. It offers a very positive and calming experience. Being in the presence Dr. Apurv Sir makes this stressful phase feel so much lighter. The staff at Vidya Jeevan are the best-always kind, accommodating, and present day in and day out to help us with any issues we might face. Thank you Sir, for this beautiful experience. ",
   },
@@ -100,7 +100,7 @@ const studentsData = [
     image: FemaleAvatar,
     name: "Dr. Aeliya Zahra",
     subReview:
-      " Vidya Jeevan is my second home❤️. Here I met the best people of my life. All of them are really helpful, always ready to help in every possible way ",
+      " Vidya Jeevan is my second home❤️. Here I met the best people of my life. All of them are really helpful, always ready to help in every ",
     review:
       " Vidya Jeevan is my second home❤️. Here I met the best people of my life. All of them are really helpful, always ready to help in every possible way, no jealousy, no negativity. This place is magical, its full of positive energy and peace🫰🏻🤍. The life lessons taught by Dr. Apurva Mehra Sir will always be in my heart. I will be forever thankful to all of them to each and every staff for making this journey so beautiful. And to all the people I met there, you guys are beautiful. Leaving this place is really hard🥹. ",
   },
@@ -108,7 +108,7 @@ const studentsData = [
     image: MaleAvatar,
     name: "Dr. Aditya Kawale",
     subReview:
-      " The most enriching and unforgettable experience. We traveled all the way from Aurangabad, and every single mile was absolutely worth it! The energy ",
+      " The most enriching and unforgettable experience. We traveled all the way from Aurangabad, and every single mile was absolutely worth it! ",
     review:
       " The most enriching and unforgettable experience. We traveled all the way from Aurangabad, and every single mile was absolutely worth it! The energy, the vibe, the quality of teaching-everything was on point. This wasn't just another academic session, it felt like a life-changing academic festival. Special shout-out to Dr. Apurv Sir whose passion, clarity, and dedication made every minute unforgettable. Their energy is LEGEND WAIT FOR IT… DARY… LEGENDARY… and they've truly created an environment that keeps you driven and focused. ",
   },
@@ -116,7 +116,7 @@ const studentsData = [
     image: FemaleAvatar,
     name: "Dr. Pooja Mohanty",
     subReview:
-      " It's really one the best places for NEET PG preparation, having suitable facilities like self study space, desktop cubicles, auditoriums, cafeteria etc. ",
+      " It's really one the best places for NEET PG preparation, having suitable facilities like self study space, desktop cubicles, auditoriums, ",
     review:
       " It's really one the best places for NEET PG preparation, having suitable facilities like self study space, desktop cubicles, auditoriums, cafeteria etc. The environment of Vidya Jeevan is quite positive and it motivates you to work harder and be better versions of yourself. We get amazing mentor like Dr. Apurv Sir. ",
   },
@@ -132,7 +132,7 @@ const studentsData = [
     image: FemaleAvatar,
     name: "Dr. Smitha Kodihalli",
     subReview:
-      " Exceptional Experience at Vidya Jeevan, Dr. Apurv Sir's motivational talks were uplifting and helped boost our confidence. Sir was so down-to-earth ",
+      " Exceptional Experience at Vidya Jeevan, Dr. Apurv Sir's motivational talks were uplifting and helped boost our confidence. Sir was so ",
     review:
       " Exceptional Experience at Vidya Jeevan, Dr. Apurv Sir's motivational talks were uplifting and helped boost our confidence. Sir was so down-to-earth and ensured that all students had access to every facility, going the extra mile to guarantee that no one was lacking in any aspect. His dedication to providing a supportive environment was truly commendable. Excellent facilities : The infrastructure was top-notch, with: Delicious food options provided by Just Not Chole Bhatura, Spotless washrooms with impeccable hygiene, A cozy and well-maintained cafe, A calm and positive environment that fostered learning, Well-equipped hall with AC and a large screen for optimal visibility, Exam Hall Simulation: They simulated exam environment helped desensitize the fear of attending exams, making us more confident and prepared. Overall Experience Vidya Jeevan has set a high standard for educational institutions. The attention to detail, commitment to excellence, and passion for teaching are truly commendable. I would highly recommend Vidya Jeevan to anyone looking for a supportive and stimulating learning environment. Thank you ⭐️⭐️⭐️⭐️⭐️. ",
   },
@@ -140,7 +140,7 @@ const studentsData = [
     image: MaleAvatar,
     name: "Dr. Harshit Jindal",
     subReview:
-      " Vidya Jeevan... The best place to exist in an exam preparing student. This place is perfectly planned & designed solely for the students. All thanks ",
+      " Vidya Jeevan... The best place to exist in an exam preparing student. This place is perfectly planned & designed solely for the students. ",
     review:
       " Vidya Jeevan... The best place to exist in an exam preparing student. This place is perfectly planned & designed solely for the students. All thanks to Dr. Apurv sir, It has all the facilities you'll probably need during preparation top notch reading rooms, perfect Computer Lab so that you can simulate real exam feels to reduce exam fear, best Lecture theatres & The very tiny details probably one might miss they have green leaves like on every pillar around you due to which the eyes don't fatigue even after 13 hours class & One thing the best (since I'm a foodie). The main concern we have is what we'll eat during these 4 days or even if you're for bootcamp during the stay they have the best food in their premises only. Breakfast, Lunch, Evening Snacks & Dinner & They also have a cafeteria in the campus if you wish to eat other than this time. You just have to study show up daily everything is well managed by the team so efficiently. Everyday starts by motivation by Dr. Apurv sir you'll never feel that you can't do this or that...so highly motivating. Coming to Vidya Jeevan was the bestttt decision we made. Tip: if you're coming here to study, Just show up daily & rest all things have been managed by the team. You'll never feel away from home. Truly an experience centre❤️. ",
   },
@@ -148,7 +148,7 @@ const studentsData = [
     image: FemaleAvatar,
     name: "Dr. Navya",
     subReview:
-      " This place has the best people, the best atmosphere for studying. Dr. Apurv sir is so sweet and welcoming to all the students. The cafeteria is amazing ",
+      " This place has the best people, the best atmosphere for studying. Dr. Apurv sir is so sweet and welcoming to all the students. The cafeteria ",
     review:
       " This place has the best people, the best atmosphere for studying. Dr. Apurv sir is so sweet and welcoming to all the students. The cafeteria is amazing, the computer rooms, everything is perfect. Also, really good food. ",
   },
@@ -340,7 +340,7 @@ const studentsData = [
     image: MaleAvatar,
     name: "Dr. Darp patel",
     subReview:
-      " It was an amazing experience, Nothing can beat the way Sir are doing efforts for us. Vidya Jeevan specially the most Ideal environment for preparation ",
+      " It was an amazing experience, Nothing can beat the way Sir are doing efforts for us. Vidya Jeevan specially the most Ideal environment for ",
     review:
       " It was an amazing experience, Nothing can beat the way Sir are doing efforts for us. Vidya Jeevan specially the most Ideal environment for preparation, Spacious, peaceful and motivational place for sure. ",
   },
@@ -364,7 +364,7 @@ const studentsData = [
     image: FemaleAvatar,
     name: "Dr. Aditi Batra",
     subReview:
-      " A very good platform for every competitive exams which enhances your skills and helps to achieve your goals. Had a very good experience in Vidya Jeevan. ",
+      " A very good platform for every competitive exams which enhances your skills and helps to achieve your goals. Had a very good experience in Vidya ",
     review:
       " A very good platform for every competitive exams which enhances your skills and helps to achieve your goals. Had a very good experience in Vidya Jeevan. The teachers here are amazing. They are very accommodating to very individual and treat students as their family. Also the staff is so humble and helpful. Thank you Dr. Apurv sir, Forever grateful 🙏✨. ",
   },
@@ -388,7 +388,7 @@ const studentsData = [
     image: FemaleAvatar,
     name: "Dr. Mansi Sharma",
     subReview:
-      " Place where every corner is made with so much of love environment of the class is so good. Energy and every word spoken by Dr. Apurv Sir is so good ",
+      " Place where every corner is made with so much of love environment of the class is so good. Energy and every word spoken by Dr. Apurv Sir is so ",
     review:
       " Place where every corner is made with so much of love environment of the class is so good. Energy and every word spoken by Dr. Apurv Sir is so good and unbeatable. ",
   },
@@ -396,7 +396,7 @@ const studentsData = [
     image: MaleAvatar,
     name: "Dr. Amritansh Ahluwalia",
     subReview:
-      " Amazing atmosphere, feels like home away from home. All the staff members and faculties are really helpful and takes care of all major and minor ",
+      " Amazing atmosphere, feels like home away from home. All the staff members and faculties are really helpful and takes care of all major and ",
     review:
       " Amazing atmosphere, feels like home away from home. All the staff members and faculties are really helpful and takes care of all major and minor issues. Special thanks to Dr. Apurv Sir and all the faces behind establishment of Vidya Jeevan😇 also the cleanliness is upto the mark always so would thank all the people who are indulged in maintaining the cleanliness. ",
   },
@@ -404,7 +404,7 @@ const studentsData = [
     image: MaleAvatar,
     name: "Dr. Sri Vamsi Krishna",
     subReview:
-      " Very beautiful atmosphere to study, staff are very friendly, feels like home, we can also learn life lessons from Dr. Apurv Mehra Sir. Perfect place ",
+      " Very beautiful atmosphere to study, staff are very friendly, feels like home, we can also learn life lessons from Dr. Apurv Mehra Sir. Perfect ",
     review:
       " Very beautiful atmosphere to study, staff are very friendly, feels like home, we can also learn life lessons from Dr. Apurv Mehra Sir. Perfect place for coaching ❤️👍. ",
   },
@@ -412,7 +412,7 @@ const studentsData = [
     image: FemaleAvatar,
     name: "Dr. Nisha singh",
     subReview:
-      " The name Vidya Jeevan stands true for what it offers to students like us who get a home away from home to study and truly find their capabilities. ",
+      " The name Vidya Jeevan stands true for what it offers to students like us who get a home away from home to study and truly find their ",
     review:
       " The name Vidya Jeevan stands true for what it offers to students like us who get a home away from home to study and truly find their capabilities. The facility offers more than we imagined crew working so tirelessly to make us comfortable since day 1. Thank you to Dr. Apura Mehra sir for his vision and efforts. ",
   },
@@ -420,7 +420,7 @@ const studentsData = [
     image: FemaleAvatar,
     name: "Dr. Madhu Chaturvedi",
     subReview:
-      " A great educational facility with a very nice environment and positivity. Staff is very nice and supportive. Thank you Dr. Apurv Sir for all the comforts ",
+      " A great educational facility with a very nice environment and positivity. Staff is very nice and supportive. Thank you Dr. Apurv Sir for ",
     review:
       " A great educational facility with a very nice environment and positivity. Staff is very nice and supportive. Thank you Dr. Apurv Sir for all the comforts ❤️. ",
   },
@@ -460,7 +460,7 @@ const studentsData = [
     image: MaleAvatar,
     name: "Dr. Nihar Shah",
     subReview:
-      " Great initiative by Dr. Apurva Mehra sir. The amount of hope it gives is immeasurable, We came as other person and would be going as a very different ",
+      " Great initiative by Dr. Apurva Mehra sir. The amount of hope it gives is immeasurable, We came as other person and would be going as a very ",
     review:
       " Great initiative by Dr. Apurva Mehra sir. The amount of hope it gives is immeasurable, We came as other person and would be going as a very different person. Thanks a lot sir and the entire team, The amount of dedication shown teaches a lot to us about how to respect our work. Thank you sir for the great initiative. ",
   },
@@ -468,7 +468,7 @@ const studentsData = [
     image: FemaleAvatar,
     name: "Dr. Prairna Sinsinwar",
     subReview:
-      " Everyday you got inspired here to study. Everything else is taken care by Vidya Jeevan. Only you have to study here. Thank you Dr. Apurv Sir. ",
+      " Everyday you got inspired here to study. Everything else is taken care by Vidya Jeevan. Only you have to study here. Thank you Dr. Apurv ",
     review:
       " Everyday you got inspired here to study. Everything else is taken care by Vidya Jeevan. Only you have to study here. Thank you Dr. Apurv Sir. ",
   },

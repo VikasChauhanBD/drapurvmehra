@@ -7,6 +7,7 @@ import VidyaJeevanClinic from "../vidyaJeevan/VidyaJeevanClinic";
 import Specialities from "../specialities/Specialities";
 import PatientsTestimonial from "../patientsTestimonial/PatientsTestimonial";
 import VidyaJeevanWarrior from "../vidyaJeevan/VidyaJeevanWarrior";
+import PatientsReviews from "../patientsReviews/PatientsReviews";
 import Devoted from "../devoted/Devoted";
 import Education from "../medicalEducation/Education";
 import Motivational from "../motivational/Motivational";
@@ -35,6 +36,7 @@ function Home() {
       <VidyaJeevanClinic />
       <PatientsTestimonial />
       <VidyaJeevanWarrior />
+      <PatientsReviews />
       <Devoted />
       <Education />
       <Motivational />
