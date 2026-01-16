@@ -1,3 +1,6 @@
+import MaleAvatar from "../images/male-avatar.webp";
+import FemaleAvatar from "../images/female-avatar.webp";
+
 const studentsData = [
   {
     image:
@@ -27,8 +30,7 @@ const studentsData = [
       " This place has such positive vibes. The best thing about this place is that they not only teach you academics but life lessons too. Dr. Apurv Sir makes it the best. I'll never forget this phase of my life where I have learnt so much from my teachers. I love the environment here and enthusiasm of the students. There is very cooperative staff and everyone here helps you too, Much Respect 🙏✨😇. ",
   },
   {
-    image:
-      "https://cdn.dribbble.com/userupload/44901542/file/b8fb7cd63422c13a5087ab629cf7b2ba.png",
+    image: MaleAvatar,
     name: "Dr. Deepak Pandey",
     subReview:
       " One of the best academy : academic excellence praise the quality of teaching, curriculum and academic support. Faculty and staff : recognize ",
@@ -54,8 +56,7 @@ const studentsData = [
       " Everyday Dr. Apurv sir used to come and used to motivate all of us in the early morning. He used to inspire everyone about life, to be a better person and a good doctor. I have to say that I was lucky that I got the opportunity to be enrolled. Thank you ",
   },
   {
-    image:
-      "https://cdn.dribbble.com/userupload/44901542/file/b8fb7cd63422c13a5087ab629cf7b2ba.png",
+    image: MaleAvatar,
     name: "Dr. Prajj",
     subReview:
       " A big thank you to Dr. Apurv sir for constantly motivating us. Addressing our concerns and making us feel seen and heard. They are so understanding. ",
@@ -72,11 +73,10 @@ const studentsData = [
       " Vidya jeevan is a gorgeous place. There are some places, some experiences that teach us a lot. This is one such place. Thankful that we had great mentor Dr. Apurv Sir They have not only motivated us to be good doctors but to be good humans as well. Very wholesome and very gorgeous experience✨ ",
   },
   {
-    image:
-      "https://cdn.dribbble.com/userupload/44901541/file/337d14b3ab0a559f20d265f545ccd9f9.png",
+    image: FemaleAvatar,
     name: "Dr. Mansi Ahuja",
     subReview:
-      " Thank u so much to whole Vidya Jeevan team And special thanks to Dr Zainab Ma’am Dr Ravi sir and Dr Apurv sir Who made best educational",
+      " Thank u so much to whole Vidya Jeevan team And special thanks to Dr Zainab Ma’am Dr Ravi sir and Dr Apurv sir Who made best educational ",
     review:
       " Thank u so much to whole Vidya Jeevan team And special thanks to Dr Zainab Ma’am Dr Ravi sir and Dr Apurv sir Who made best educational institute for doctors Our real hero’s ",
   },

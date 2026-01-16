@@ -56,7 +56,7 @@ function StudentsTestimonial() {
     <div id="students-testimonial" className="studentTM-main-container">
       <div className="studentTM-content">
         <h1>
-          What students say about Vidya Jeevan Experience Centre, Greater Noida
+          What Students say about Vidya Jeevan Experience Centre, Greater Noida
         </h1>
         <h2>
           “You’ll come here expecting academic support - but you leave with
