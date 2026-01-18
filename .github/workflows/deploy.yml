@@ -25,4 +25,9 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/ # Use ./build/ if you are using Create React App
-          server-dir: ./ # The path to your website folder on Hostinger
+          server-dir: /public_html/ # The path to your website folder on Hostinger
+          # Use standard FTP protocol
+          protocol: ftp
+          # Helps prevent connection resets on shared hosting
+          security: loose
+          state-name: .ftp-deploy-sync-state.json
