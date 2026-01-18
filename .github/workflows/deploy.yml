@@ -3,7 +3,7 @@ name: Deploy React Website
 on:
   push:
     branches:
-      - main #  depending on your branch name
+      - main #  write your branch name
 
 jobs:
   build-and-deploy:
