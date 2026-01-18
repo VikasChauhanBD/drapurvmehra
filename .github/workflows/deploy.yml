@@ -25,4 +25,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/ # Use ./build/ if you are using Create React App
-          server-dir: ./public_html/ # The path to your website folder on Hostinger
+          server-dir: ./ # The path to your website folder on Hostinger
