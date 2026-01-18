@@ -1,10 +1,8 @@
 name: Deploy React Website
-
 on:
   push:
     branches:
-      - main #  write your branch name
-
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -12,8 +10,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "24" # Specify your Node version
+
       - name: Install dependencies
-        run: npm install
+        run: npm ci # Faster and more reliable than npm install
 
       - name: Build project
         run: npm run build
@@ -24,10 +27,13 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/ # Use ./build/ if you are using Create React App
-          server-dir: /public_html/ # The path to your website folder on Hostinger
-          # Use standard FTP protocol
-          protocol: ftp
-          # Helps prevent connection resets on shared hosting
-          security: loose
-          state-name: .ftp-deploy-sync-state.json
+          local-dir: ./dist/
+          server-dir: ./public_html/ # Changed from /public_html/
+          protocol: ftps # Changed from ftp
+          port: 21
+          timeout: 300000 # 5 minutes timeout
+          log-level: verbose # Enable detailed logging
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
