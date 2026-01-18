@@ -18,6 +18,7 @@
   font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: underline;
   color: #333333;
   padding: 1rem 1rem 2rem 1rem;
 }
@@ -37,7 +38,8 @@
   text-align: center;
   margin: 0 0 32px 20px;
   /* border: 2px solid #333333; */
-  box-shadow: inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
+  box-shadow:
+    inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
     inset 0 1.373px 0.687px -2.5px rgba(0, 0, 0, 0.16),
     inset 0 6px 3px -3.75px rgba(0, 0, 0, 0.06),
     inset 0 0.422px 0.422px -1.25px hsla(0, 0%, 100%, 0.18),
@@ -102,7 +104,8 @@
   transition: all 0.3s ease;
   position: relative;
   border: none;
-  box-shadow: inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
+  box-shadow:
+    inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
     inset 0 1.373px 0.687px -2.5px rgba(0, 0, 0, 0.16),
     inset 0 6px 3px -3.75px rgba(0, 0, 0, 0.06),
     inset 0 0.422px 0.422px -1.25px hsla(0, 0%, 100%, 0.18),
