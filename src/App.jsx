@@ -6,6 +6,7 @@ import Footer from "./components/footer/Footer";
 import MobileFooter from "./components/mobileFooter/MobileFooter";
 import RoboticTotalKneeReplacement from "./components/specialities/RoboticTotalKneeReplacement";
 import Acl from "./components/specialities/Acl";
+import ComplexTrauma from "./components/specialities/ComplexTrauma";
 import SpineSurgeries from "./components/specialities/SpineSurgeries";
 import BlogHome from "./components/blogs/BlogHome";
 import BlogPage from "./components/blogs/BlogPage";
@@ -66,6 +67,15 @@ function App() {
           element={
             <Layout showSharedComponents={false}>
               <RoboticTotalKneeReplacement />
+            </Layout>
+          }
+        />
+
+        <Route
+          path="/complex-trauma-pelvic-acetabular-surgeries"
+          element={
+            <Layout showSharedComponents={false}>
+              <ComplexTrauma />
             </Layout>
           }
         />

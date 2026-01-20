@@ -38,7 +38,7 @@ function Specialities() {
       image:
         "https://cdn.dribbble.com/userupload/44901424/file/5c00fb2c84df6f2b22baf70ae861e3de.png",
       topic: "Complex Trauma & Pelvic - Acetabular Surgeries",
-      url: "/",
+      url: "/complex-trauma-pelvic-acetabular-surgeries",
     },
     {
       image:
