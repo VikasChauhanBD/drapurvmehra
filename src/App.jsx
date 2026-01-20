@@ -5,7 +5,7 @@ import ScrollToTopButton from "./components/scrollToTopButton/ScrollToTopButton"
 import Footer from "./components/footer/Footer";
 import MobileFooter from "./components/mobileFooter/MobileFooter";
 import RoboticTotalKneeReplacement from "./components/specialities/RoboticTotalKneeReplacement";
-import Acl from "./components/specialities/ACL";
+import Acl from "./components/specialities/Acl";
 import SpineSurgeries from "./components/specialities/SpineSurgeries";
 import BlogHome from "./components/blogs/BlogHome";
 import BlogPage from "./components/blogs/BlogPage";
