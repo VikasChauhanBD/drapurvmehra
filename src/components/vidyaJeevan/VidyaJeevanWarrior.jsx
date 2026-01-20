@@ -53,6 +53,42 @@ const reelsData = [
       "https://cdn.dribbble.com/userupload/45288468/file/70b01a47f7be2fa2639fa8e09f35f9ea.jpg",
     url: "https://www.youtube.com/embed/8sAYfL1ZjHc",
   },
+  {
+    id: 9,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/46420684/file/d5323a7f71cc96570b8f0bebdb67621a.jpg",
+    url: "https://www.youtube.com/embed/KPkvYpxFCG0",
+  },
+  {
+    id: 10,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/46420688/file/5db5d551189d6a844b2ed9c2e7c90082.jpg",
+    url: "https://www.youtube.com/embed/oyCxetv-fXc",
+  },
+  {
+    id: 11,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/46420685/file/cf113b21383ff4493942ac405943265a.jpg",
+    url: "https://www.youtube.com/embed/TvoUqtqWVyc",
+  },
+  {
+    id: 12,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/46420687/file/4eca9665201328bdaaf49ca7ad15e635.jpg",
+    url: "https://www.youtube.com/embed/w46IiY4C8jw",
+  },
+  {
+    id: 13,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/46420686/file/a115b32b7f0f6bd729c96627aa25ac02.jpg",
+    url: "https://www.youtube.com/embed/CEMAGTqgAdw",
+  },
+  {
+    id: 14,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/46420683/file/b961a3aa6eadcfcbb28b98f6b6bf5496.jpg",
+    url: "https://www.youtube.com/embed/orvrakiOEks",
+  },
 ];
 
 function VidyaJeevanWarrior() {
