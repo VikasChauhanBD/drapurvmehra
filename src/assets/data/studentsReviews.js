@@ -212,7 +212,7 @@ const studentsData = [
     image: MaleAvatar,
     name: "Dr. Kartik Pal",
     subReview:
-      " Vidya Jeevan INICET & NEET PG Coaching – A Journey of Rediscovery. I belong to the 2017 MBBS batch, and my academic journey has been far from smooth. ",
+      " Vidya Jeevan INICET & NEET PG Coaching – A Journey of Rediscovery. I belong to the 2017 MBBS batch, and my academic journey has ",
     review:
       " Vidya Jeevan INICET & NEET PG Coaching – A Journey of Rediscovery. I belong to the 2017 MBBS batch, and my academic journey has been far from smooth. The atmosphere in my undergraduate college wasn't very supportive of learning, but I did my best to stick to the main notes till final year. After my final year results, 2022 was a complete blank due to some exceptional personal circumstances. My internship got delayed and I finally completed it on August 15, 2024. Despite the long gap, I started regaining my momentum around April 2024. I gave NEET PG 2024, where I got 108 corrects, though the rest were negatives. Unfortunately, due to health issues, I couldn't appear for INICET November 2024. I returned home on September 2, 2024, and after some thought, I finally joined Vidya Jeevan on December 18, 2024. That decision changed everything. Having lost touch with the syllabus and being a naturally slow learner, I needed time and strong guidance to bounce back. At Vidya Jeevan, I got exactly that. Under the compassionate and structured mentorship of Dr. Apurv Sir, I finally found the direction I had been missing for so long. I gave INICET May 2025 and managed 106 corrects with 93 negatives. Not perfect, but for someone catching up after years, it was a milestone. Now with NEET PG 2025 delayed by two months, I finally feel confident and well-oriented. I'm also aiming for INICET November 2025, because I now believe I can aim higher. Joining Vidya Jeevan has been the most transformative step of my journey. This place didn't just revive my preparation—it revived my belief in myself, Forever grateful. ",
   },
@@ -276,18 +276,18 @@ const studentsData = [
     image: FemaleAvatar,
     name: "Dr. Shivani Singh",
     subReview:
-      " Words would be less to describe this place. Thanks to Dr. Apurv sir for the amazing guidance from them. Thanks to the entire team to make it so student ",
+      " Words would be less to describe this place. Thanks to Dr. Apurv sir for the amazing guidance from them. Thanks to the entire team to make it ",
     review:
       " Words would be less to describe this place. Thanks to Dr. Apurv sir for the amazing guidance from them. Thanks to the entire team to make it so student friendly. ",
   },
-  {
-    image: FemaleAvatar,
-    name: "Dr. Harshita Lokwani",
-    subReview:
-      " Amazing vibe. All the facilities were great. Best place for studying. Thank you Dr. Apurv sir 🙏. ",
-    review:
-      " Amazing vibe. All the facilities were great. Best place for studying. Thank you Dr. Apurv sir 🙏. ",
-  },
+  // {
+  //   image: FemaleAvatar,
+  //   name: "Dr. Harshita Lokwani",
+  //   subReview:
+  //     " Amazing vibe. All the facilities were great. Best place for studying. Thank you Dr. Apurv sir 🙏. ",
+  //   review:
+  //     " Amazing vibe. All the facilities were great. Best place for studying. Thank you Dr. Apurv sir 🙏. ",
+  // },
   {
     image: FemaleAvatar,
     name: "Dr. Abhidi Sethi",

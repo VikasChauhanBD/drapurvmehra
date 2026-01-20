@@ -9,7 +9,7 @@ import studentsData from "../../assets/data/studentsReviews";
 function StudentsTestimonial() {
   const studentsListRef = useRef(null);
   const scrollIntervalRef = useRef(null);
-  const [expandedIndex, setExpandedIndex] = useState(null); // 👈 track expanded review
+  const [expandedIndex, setExpandedIndex] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -46,7 +46,7 @@ function StudentsTestimonial() {
     setExpandedIndex((prev) => {
       const isCollapsing = prev === index;
       if (isCollapsing) {
-        startScrolling(); // Restart scrolling when collapsing
+        startScrolling();
       }
       return isCollapsing ? null : index;
     });
@@ -112,7 +112,7 @@ function StudentsTestimonial() {
         onClick={() =>
           window.open(
             "https://www.google.com/maps/place/Vidya+Jeevan/@28.4743648,77.4996851,17z/data=!4m18!1m9!3m8!1s0x390cc1248e395885:0x9099a001358dfd8f!2sVidya+Jeevan!8m2!3d28.4743601!4d77.50226!9m1!1b1!16s%2Fg%2F11w7l3p8v1!3m7!1s0x390cc1248e395885:0x9099a001358dfd8f!8m2!3d28.4743601!4d77.50226!9m1!1b1!16s%2Fg%2F11w7l3p8v1?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D",
-            "_blank"
+            "_blank",
           )
         }
         className="studentTM-btn"

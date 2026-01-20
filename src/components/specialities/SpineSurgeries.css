@@ -86,6 +86,7 @@
 .spine-card {
   position: relative;
   width: 100%;
+  aspect-ratio: 16 / 9;
   border-radius: 10px;
   cursor: pointer;
   overflow: hidden;
@@ -95,6 +96,7 @@
 .spine-card iframe {
   width: 100%;
   height: 100%;
+  border: none;
 }
 
 .spine-card img {
