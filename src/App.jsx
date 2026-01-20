@@ -5,20 +5,18 @@ import ScrollToTopButton from "./components/scrollToTopButton/ScrollToTopButton"
 import Footer from "./components/footer/Footer";
 import MobileFooter from "./components/mobileFooter/MobileFooter";
 import RoboticTotalKneeReplacement from "./components/specialities/RoboticTotalKneeReplacement";
+import SpineSurgeries from "./components/specialities/SpineSurgeries";
 import BlogHome from "./components/blogs/BlogHome";
 import BlogPage from "./components/blogs/BlogPage";
 import Home from "./components/home/Home";
 import Error404 from "./components/error404/Error404";
 
-// Layout wrapper component to conditionally render shared components
 function Layout({ children, showSharedComponents = true }) {
   const location = useLocation();
 
   return (
     <>
       {children}
-
-      {/* Conditionally show shared components */}
       {showSharedComponents && (
         <>
           <ScrollToTopButton />
@@ -35,7 +33,6 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Home page routes with shared components */}
         <Route
           path="/"
           element={
@@ -68,6 +65,15 @@ function App() {
           element={
             <Layout showSharedComponents={false}>
               <RoboticTotalKneeReplacement />
+            </Layout>
+          }
+        />
+
+        <Route
+          path="/spine-surgeries"
+          element={
+            <Layout showSharedComponents={false}>
+              <SpineSurgeries />
             </Layout>
           }
         />

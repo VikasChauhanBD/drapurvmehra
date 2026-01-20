@@ -96,7 +96,7 @@ function RoboticTotalKneeReplacement() {
 
       <h1>Robotic Total Knee Replacement</h1>
 
-      <div className="robotic-cards">
+      <div className="robotic-cards" data-aos="fade-up">
         {videosData
           .slice()
           .reverse()
@@ -107,7 +107,6 @@ function RoboticTotalKneeReplacement() {
               onClick={() =>
                 setActiveVideo(activeVideo === video.id ? null : video.id)
               }
-              data-aos="fade-up"
             >
               {activeVideo === video.id ? (
                 <iframe

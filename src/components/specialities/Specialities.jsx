@@ -44,7 +44,7 @@ function Specialities() {
       image:
         "https://cdn.dribbble.com/userupload/44901426/file/1b7ee0d0ea7c7e0ef1b70d94a17d103e.png",
       topic: "Limb Deformity Corrections & Spine Surgeries",
-      url: "#specialities",
+      url: "/spine-surgeries",
     },
   ];
 
