@@ -20,25 +20,25 @@ function Specialities() {
       image:
         "https://cdn.dribbble.com/userupload/44901425/file/6672e4ce71f578104490a74d4073d74b.png",
       topic: "Complex and Revision Joint Replacements",
-      url: "#specialities",
+      url: "/",
     },
     {
       image:
         "https://cdn.dribbble.com/userupload/44901428/file/816383c7bfd9b86f7341e39525e10708.png",
       topic: "Arthroscopic ACL Reconstructions",
-      url: "#specialities",
+      url: "/arthroscopic-acl-reconstructions",
     },
     {
       image:
         "https://cdn.dribbble.com/userupload/44901427/file/24228b581b6eb5677a19e09e1b7739cb.png",
       topic: "Shoulder/Rotator Cuff Surgeries",
-      url: "#specialities",
+      url: "/",
     },
     {
       image:
         "https://cdn.dribbble.com/userupload/44901424/file/5c00fb2c84df6f2b22baf70ae861e3de.png",
       topic: "Complex Trauma & Pelvic - Acetabular Surgeries",
-      url: "#specialities",
+      url: "/",
     },
     {
       image:
