@@ -1,5 +1,59 @@
 const blogData = [
   {
+    id: "the-truth-behind-the-coat-read-before-you-go-for-neet-pg-ini-cet-and-fmge",
+    blogDate: "January 20, 2026",
+    image:
+      "https://cdn.dribbble.com/userupload/46442751/file/524e68c36de5890d076bed9fd75c9c82.jpg",
+    metaTitle:
+      "The Truth Behind the Coat: Read Before You Go for NEET PG/ INI CET & FMGE",
+    metaDesc:
+      "Discover the real life behind the white coat with honest insights on NEET PG INI CET and FMGE covering career pressure preparation struggles and real medical reality.",
+    author: "Dr. Apurv Mehra",
+    tags: ["NEET PG", "INI CET", "FMGE", "Medical Education", "Motivation"],
+    para: `Dear students, to be a doctor is not just a profession, it's a calling. It's a legacy that extends beyond books, ranks, and white coats. It's about healing, hands, and hearts. This blog captures the essence of that inspiring message, condensed from experience and emotion, and is a must-read for all aspiring doctors.
+
+<h4>The Heart Behind the White Coat</h4>
+
+<p>Every physician understands the happiness of saving a life and the sorrow of losing one. The sleep you get, where you rest-none of that counts after a difficult day in the hospital. What lingers is the patient's face, his battle, and your continued struggle to revive him. This is what this journey is about-human contact.</p>
+
+<p>Physicians dream otherwise. They dream of touching lives, and not just clearing exams. They dream of creating memories that remain imprinted in the heart of a student for life. This journey is not simply measured in terms of marks but in terms of impact.</p>
+
+<h4>The Three Pillars of Medicine</h4>
+
+<li>• <b>A Heart That Cares Unconditionally:</b> To think beyond caste, creed, and economic status. To see only a patient who has to be healed.</li>
+
+<li>• <b>A Prayer to Alleviate Pain:</b> Every physician has an unconscious prayer-to minimise suffering, repair malformations, and preserve dignity.</li>
+
+<li>• <b>Hands That Heal:</b> These two hands can shed light on the worst times of one's life. Hold them firm, secure, and holy.</li>
+
+<p>Being a physician is not about coming first in all races. It's about arriving, staying in the race, and doing your best-even when you're last.</p>
+
+<h4>Alone We Fall, Together We Rise</h4>
+
+<p>Medicine is not a one-person climb-it's an ascending journey. Just as 1 and 0 are mighty together as 10, students, physicians, and mentors ascend by lifting one another. Learning never ends. Forward movement doesn't always translate into progress-it frequently indicates silent, gradual movement.</p>
+
+<h4>Lessons Beyond the Books</h4>
+
+<p>At times, a life lesson comes from brushing your teeth with the opposite hand. <b>Adaptability, accuracy, and patience</b>-all of them start with little things. The quality of learning something new each day, of preparing even in rest, is what makes a successful physician.</p>
+
+<p>When the Struggles Hit</p>
+
+<p>It's simple to feel behind. But don't forget: delay is not denial. It's preparation. The longer it takes, the higher the purpose. You might not be seeing the whole picture yet, but keep going.</p>
+
+<p><b>"Koshish kar, hal niklega. Aaj nahi to kal niklega."</b> This mantra isn't poetry-it's life.</p>
+
+<h4>The Power of Gratitude</h4>
+
+<p>Before you reach for more, stop and say thank you. To your teachers, your parents, your situation. Gratitude stabilises you. It gives you peace amid chaos. Your journey may not be linear-it may go up like a mountain or down like a valley-but every detour is moulding you.</p>
+
+<h4>Conclusion: Stay Humble. Stay Hungry.</h4>
+
+<p>If you're on top, keep in mind-humility is your firewall. And if you're struggling, celebrate. The journey has only just begun.</p>
+
+<p>You're not learning to pass <b>NEET PG</b> or <b>INI-CET</b>. You're learning to stand tall in an operating theatre, to give hope to a hopeless ward, to say one day-<b>"I am a doctor, and I try to save lives."</b></p>
+`,
+  },
+  {
     id: "the-phase-of-entrance-exams-and-why-it-hurts-so-much-insight-by-dr-apurv-mehra",
     blogDate: "January 09, 2026",
     image:
