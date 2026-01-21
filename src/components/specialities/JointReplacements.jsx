@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaPlayCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const videosData = [
   {
@@ -30,6 +31,14 @@ function JointReplacements() {
 
   return (
     <div className="joint-main-container">
+      <Helmet>
+        <title>Complex & Revision Joint Replacements - Dr. Apurv Mehra</title>
+        <meta
+          name="description"
+          content="Dr. Apurv Mehra specializes in complex and revision joint replacements offering precise solutions for failed implants pain relief and renewed mobility."
+        />
+      </Helmet>
+
       <div className="joint-nav">
         <nav className="joint-breadcrumb">
           <div className="joint-breadcrumb-content">

@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaPlayCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const videosData = [
   {
@@ -72,6 +73,14 @@ function RoboticTotalKneeReplacement() {
 
   return (
     <div className="robotic-main-container">
+      <Helmet>
+        <title>Robotic Total Knee Replacement - Dr. Apurv Mehra</title>
+        <meta
+          name="description"
+          content="Explore robotic total knee replacement by Dr. Apurv Mehra with precise planning, better alignment, faster recovery, and patient focused care."
+        />
+      </Helmet>
+
       <div className="robotic-nav">
         <nav className="robotic-breadcrumb">
           <div className="robotic-breadcrumb-content">

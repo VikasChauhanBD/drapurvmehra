@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaPlayCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const videosData = [
   {
@@ -30,6 +31,14 @@ function Shoulder() {
 
   return (
     <div className="shoulder-main-container">
+      <Helmet>
+        <title>Shoulder & Rotator Cuff Surgeries - Dr. Apurv Mehra</title>
+        <meta
+          name="description"
+          content="Dr. Apurv Mehra delivers expert shoulder and rotator cuff surgeries restoring strength stability and pain free movement with modern techniques."
+        />
+      </Helmet>
+
       <div className="shoulder-nav">
         <nav className="shoulder-breadcrumb">
           <div className="shoulder-breadcrumb-content">

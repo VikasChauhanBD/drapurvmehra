@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaPlayCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const videosData = [
   {
@@ -24,6 +25,16 @@ function ComplexTrauma() {
 
   return (
     <div className="trauma-main-container">
+      <Helmet>
+        <title>
+          Complex Trauma & Pelvic Acetabular Surgeries - Dr. Apurv Mehra
+        </title>
+        <meta
+          name="description"
+          content="Dr. Apurv Mehra offers expert care in complex trauma and pelvic acetabular surgeries using advanced techniques for stability recovery and mobility."
+        />
+      </Helmet>
+
       <div className="trauma-nav">
         <nav className="trauma-breadcrumb">
           <div className="trauma-breadcrumb-content">

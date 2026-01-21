@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaPlayCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const videosData = [
   {
@@ -42,6 +43,16 @@ function SpineSurgeries() {
 
   return (
     <div className="spine-main-container">
+      <Helmet>
+        <title>
+          Limb Deformity Corrections & Spine Surgeries - Dr. Apurv Mehra
+        </title>
+        <meta
+          name="description"
+          content="Dr. Apurv Mehra provides advanced limb deformity correction and spine surgeries focused on alignment pain relief mobility and long term outcomes."
+        />
+      </Helmet>
+
       <div className="spine-nav">
         <nav className="spine-breadcrumb">
           <div className="spine-breadcrumb-content">

@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaPlayCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const videosData = [
   {
@@ -30,6 +31,14 @@ function Acl() {
 
   return (
     <div className="acl-main-container">
+      <Helmet>
+        <title>Arthroscopic ACL Reconstructions - Dr. Apurv Mehra</title>
+        <meta
+          name="description"
+          content="Dr. Apurv Mehra specializes in arthroscopic ACL reconstructions delivering stable knees minimal scars faster recovery and confident return to sports."
+        />
+      </Helmet>
+
       <div className="acl-nav">
         <nav className="acl-breadcrumb">
           <div className="acl-breadcrumb-content">
