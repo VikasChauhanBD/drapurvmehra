@@ -20,7 +20,7 @@ function Specialities() {
       image:
         "https://cdn.dribbble.com/userupload/44901425/file/6672e4ce71f578104490a74d4073d74b.png",
       topic: "Complex and Revision Joint Replacements",
-      url: "/",
+      url: "/complex-and-revision-joint-replacements",
     },
     {
       image:
@@ -32,7 +32,7 @@ function Specialities() {
       image:
         "https://cdn.dribbble.com/userupload/44901427/file/24228b581b6eb5677a19e09e1b7739cb.png",
       topic: "Shoulder/Rotator Cuff Surgeries",
-      url: "/",
+      url: "/shoulder-cuff-surgeries",
     },
     {
       image:
@@ -44,7 +44,7 @@ function Specialities() {
       image:
         "https://cdn.dribbble.com/userupload/44901426/file/1b7ee0d0ea7c7e0ef1b70d94a17d103e.png",
       topic: "Limb Deformity Corrections & Spine Surgeries",
-      url: "/spine-surgeries",
+      url: "/limb-deformity-corrections-spine-surgeries",
     },
   ];
 

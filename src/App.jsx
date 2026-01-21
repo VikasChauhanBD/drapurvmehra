@@ -5,7 +5,9 @@ import ScrollToTopButton from "./components/scrollToTopButton/ScrollToTopButton"
 import Footer from "./components/footer/Footer";
 import MobileFooter from "./components/mobileFooter/MobileFooter";
 import RoboticTotalKneeReplacement from "./components/specialities/RoboticTotalKneeReplacement";
+import JointReplacements from "./components/specialities/JointReplacements";
 import Acl from "./components/specialities/Acl";
+import Shoulder from "./components/specialities/Shoulder";
 import ComplexTrauma from "./components/specialities/ComplexTrauma";
 import SpineSurgeries from "./components/specialities/SpineSurgeries";
 import BlogHome from "./components/blogs/BlogHome";
@@ -72,10 +74,10 @@ function App() {
         />
 
         <Route
-          path="/complex-trauma-pelvic-acetabular-surgeries"
+          path="/complex-and-revision-joint-replacements"
           element={
             <Layout showSharedComponents={false}>
-              <ComplexTrauma />
+              <JointReplacements />
             </Layout>
           }
         />
@@ -90,7 +92,25 @@ function App() {
         />
 
         <Route
-          path="/spine-surgeries"
+          path="/shoulder-cuff-surgeries"
+          element={
+            <Layout showSharedComponents={false}>
+              <Shoulder />
+            </Layout>
+          }
+        />
+
+        <Route
+          path="/complex-trauma-pelvic-acetabular-surgeries"
+          element={
+            <Layout showSharedComponents={false}>
+              <ComplexTrauma />
+            </Layout>
+          }
+        />
+
+        <Route
+          path="/limb-deformity-corrections-spine-surgeries"
           element={
             <Layout showSharedComponents={false}>
               <SpineSurgeries />
