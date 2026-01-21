@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 import ScrollToTopButton from "./components/scrollToTopButton/ScrollToTopButton";
 import Footer from "./components/footer/Footer";
 import MobileFooter from "./components/mobileFooter/MobileFooter";
@@ -36,6 +37,8 @@ function Layout({ children, showSharedComponents = true }) {
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
+
       <Routes>
         <Route
           path="/"
