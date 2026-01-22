@@ -8,49 +8,49 @@ const reelsData = [
   {
     id: 1,
     thumbnail:
-      "https://cdn.dribbble.com/userupload/44958099/file/a74f3823fb43309a2123a636993e3c41.jpg",
+      "https://cdn.dribbble.com/userupload/46473573/file/144a03cc8a9771d0e231830eb23857d9.jpeg",
     url: "https://www.youtube.com/embed/hcj9zDQgl6E",
   },
   {
     id: 2,
     thumbnail:
-      "https://cdn.dribbble.com/userupload/44958123/file/7d350e03433b4d604459e6f8fe008a2f.jpg",
+      "https://cdn.dribbble.com/userupload/46473568/file/155f2dea3faea0e72a05820fc2e14583.jpeg",
     url: "https://www.youtube.com/embed/KlF1tYn7og4",
   },
   {
     id: 3,
     thumbnail:
-      "https://cdn.dribbble.com/userupload/44900629/file/97500427b27ca6a3f1a6fb93ffe38494.jpg",
+      "https://cdn.dribbble.com/userupload/46473571/file/9c8216719ea6f74ae85717262a88ec3b.jpeg",
     url: "https://www.youtube.com/embed/byd53DDwNcI",
   },
   {
     id: 4,
     thumbnail:
-      "https://cdn.dribbble.com/userupload/44900633/file/17e9fee612b3fbdb73407fe60f743fef.jpg",
+      "https://cdn.dribbble.com/userupload/46473572/file/c83662f676887e2c00f04dcedce7b14c.jpeg",
     url: "https://www.youtube.com/embed/9oaHK5JQomc",
   },
   {
     id: 5,
     thumbnail:
-      "https://cdn.dribbble.com/userupload/44900641/file/81591d6d3c3f8d4cb14408cd744caa27.jpg",
+      "https://cdn.dribbble.com/userupload/46473570/file/981e62aa1ec850bd10edb79daff6096b.jpeg",
     url: "https://www.youtube.com/embed/i7E_5LK7g50",
   },
   {
     id: 6,
     thumbnail:
-      "https://cdn.dribbble.com/userupload/44900640/file/e07d1f0756b2a0c4ba57264d0d3ee0e5.jpg",
+      "https://cdn.dribbble.com/userupload/46473569/file/59222b35312f97ee246689b346063045.jpeg",
     url: "https://www.youtube.com/embed/DYhwYaAL3n0",
   },
   {
     id: 7,
     thumbnail:
-      "https://cdn.dribbble.com/userupload/45288452/file/48d5e654a08e106a49f5361be55f67ea.jpg",
+      "https://cdn.dribbble.com/userupload/46473574/file/3366829b99c7d6985965a5714a6fa470.webp",
     url: "https://www.youtube.com/embed/75FqG7uNCjA",
   },
   {
     id: 8,
     thumbnail:
-      "https://cdn.dribbble.com/userupload/45288468/file/70b01a47f7be2fa2639fa8e09f35f9ea.jpg",
+      "https://cdn.dribbble.com/userupload/46473654/file/b42d0c5755c5bac5504dc492761d8572.webp",
     url: "https://www.youtube.com/embed/8sAYfL1ZjHc",
   },
   {
