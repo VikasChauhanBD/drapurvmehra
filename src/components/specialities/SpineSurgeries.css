@@ -7,7 +7,9 @@
   height: 100px;
   padding: 1rem;
   margin-bottom: 1rem;
-  background-color: #97caeb;
+  /* background-color: #97caeb; */
+  background-color: #425d92;
+  background-image: url(../../assets/images/side-bar-bg.png);
 }
 
 .spine-breadcrumb {
@@ -19,6 +21,7 @@
   justify-content: space-between;
   gap: 8px;
   background: rgba(255, 255, 255, 0.28);
+  background-image: url(../../assets/images/side-bar-bg.png);
   backdrop-filter: blur(8px) saturate(1.05);
   -webkit-backdrop-filter: blur(8px) saturate(1.05);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -64,7 +67,8 @@
 
 .spine-breadcrumb-current {
   font-size: 14px;
-  color: #0099ff !important;
+  /* color: #0099ff !important; */
+  color: #0055ff !important;
   font-weight: 600;
 }
 
