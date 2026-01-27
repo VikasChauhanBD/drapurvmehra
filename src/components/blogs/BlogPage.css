@@ -160,6 +160,60 @@ html {
   color: rgb(1, 161, 161);
 }
 
+/* Tags Section */
+.blog-tags-section {
+  margin: 2rem 0 1.5rem 0;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+  border-radius: 12px;
+  border-left: 4px solid #0055ff;
+}
+
+.blog-tags-label {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #6b7280;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.blog-tags-label::before {
+  content: "🏷️";
+  font-size: 16px;
+}
+
+.blog-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.blog-tag {
+  display: inline-block;
+  padding: 8px 16px;
+  background: white;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+  cursor: default;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.blog-tag:hover {
+  background: #0055ff;
+  color: white;
+  border-color: #0055ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 85, 255, 0.2);
+}
+
 .blog-share-btn {
   padding: 8px 16px;
   background-color: #f3f4f6;
@@ -436,6 +490,19 @@ html {
 
   .blog-article-content {
     font-size: 16px;
+  }
+
+  .blog-tags-section {
+    padding: 1rem;
+  }
+
+  .blog-tags-label {
+    font-size: 13px;
+  }
+
+  .blog-tag {
+    font-size: 13px;
+    padding: 6px 12px;
   }
 
   .recommended-blog h6 {

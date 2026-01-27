@@ -62,7 +62,7 @@ function BlogPage() {
       if (paragraph.includes("<h4>")) {
         const modifiedParagraph = paragraph.replace(
           /<h4>/g,
-          () => `<h4 id="section-${headingIndex++}">`
+          () => `<h4 id="section-${headingIndex++}">`,
         );
         return (
           <div
@@ -190,6 +190,20 @@ function BlogPage() {
             <div className="blog-article-content">
               {formatContent(blog.para)}
             </div>
+
+            {/* Tags Section */}
+            {blog.tags && blog.tags.length > 0 && (
+              <div className="blog-tags-section">
+                <div className="blog-tags-label">Tags</div>
+                <div className="blog-tags-container">
+                  {blog.tags.map((tag, index) => (
+                    <span key={index} className="blog-tag">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
 
             <button className="blog-share-btn" onClick={handleShare}>
               🔗 Share
