@@ -3,8 +3,8 @@
   RewriteBase /
 
   # 🔁 Redirect www to non-www (SEO 301)
-  RewriteCond %{HTTP_HOST} ^www\.drapurv.com\.com$ [NC]
-  RewriteRule ^(.*)$ https://drapurv.com.com/$1 [L,R=301]
+  RewriteCond %{HTTP_HOST} ^www\.drapurv\.com$ [NC]
+  RewriteRule ^(.*)$ https://drapurv.com/$1 [L,R=301]
 
   # ⚛️ React SPA routing
   RewriteRule ^index\.html$ - [L]
