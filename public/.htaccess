@@ -1,6 +1,12 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+
+  # 🔁 Redirect www to non-www (SEO 301)
+  RewriteCond %{HTTP_HOST} ^www\.drzainabvora\.com$ [NC]
+  RewriteRule ^(.*)$ https://drzainabvora.com/$1 [L,R=301]
+
+  # ⚛️ React SPA routing
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
