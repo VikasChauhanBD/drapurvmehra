@@ -3,7 +3,7 @@
   padding: 4rem 1rem;
 }
 
-.vjw-main-container h1 {
+.vjw-main-container h2 {
   font-size: 2rem;
   padding: 2rem 1rem;
   text-align: center;
@@ -98,7 +98,7 @@
 }
 
 @media (max-width: 768px) {
-  .vjw-main-container h1 {
+  .vjw-main-container h2 {
     font-size: 1.5rem;
   }
 

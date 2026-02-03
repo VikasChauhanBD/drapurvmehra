@@ -4,25 +4,18 @@ import Image from "../../assets/images/about-image.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 
 function About() {
   useEffect(() => {
     AOS.init({ duration: 1000, offset: 200 });
   }, []);
 
-  const navigate = useNavigate();
-
-  const handleNavigate = () => {
-    navigate("/testing"); // 👈 navigate to testing page
-  };
-
   return (
     <div id="about" className="about-main-container">
       <div className="about-content">
         <div className="about-para">
-          <h1>Meet Dr. Apurv Mehra</h1>
-          <h2>Where Expertise Meets Empathy</h2>
+          <h2>Meet Dr. Apurv Mehra</h2>
+          <h3>Where Expertise Meets Empathy</h3>
           <p>
             Behind every successful surgery and every confident step a patient
             takes toward recovery stands a doctor who goes beyond the call of

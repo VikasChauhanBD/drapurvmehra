@@ -102,7 +102,7 @@ function PatientsTestimonial() {
   return (
     <div id="patients-testimonial" className="patient-swiper-container">
       <div className="patient-swiper-content1">
-        <h1>Patient Stories English ✨</h1>
+        <h2>Patient Stories English ✨</h2>
         <Swiper
           effect="coverflow"
           grabCursor={true}
@@ -133,7 +133,7 @@ function PatientsTestimonial() {
       </div>
 
       <div className="patient-swiper-content2">
-        <h1>Patient Stories Hindi ✨</h1>
+        <h2>Patient Stories Hindi ✨</h2>
         <Swiper
           effect="coverflow"
           grabCursor={true}

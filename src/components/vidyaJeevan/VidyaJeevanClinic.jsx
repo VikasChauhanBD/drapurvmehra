@@ -14,7 +14,7 @@ function VidyaJeevanClinic() {
 
   return (
     <div id="vidya-jeevan-clinic" className="vjc-main-container">
-      <h1>Vidya Jeevan Clinic for Orthopedics</h1>
+      <h2>Vidya Jeevan Clinic for Orthopedics</h2>
       <p className="vjc-subtitle">
         Where Ethics, Expertise, and Empathy Come Together
       </p>

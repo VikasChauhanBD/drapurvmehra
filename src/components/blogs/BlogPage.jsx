@@ -228,7 +228,7 @@ function BlogPage() {
         {/* Recommended Blogs */}
         <section className="recommended-blog">
           <h6>KEEP EXPLORING</h6>
-          <h1>Recommended Reads - Just for You</h1>
+          <h2>Recommended Reads - Just for You</h2>
 
           <section className="recommended-blog-cards" ref={carouselRef}>
             {blogData.map((data) => (

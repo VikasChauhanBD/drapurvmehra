@@ -100,7 +100,6 @@
   margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 10px;
-  /* box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1); */
   box-shadow:
     inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
     inset 0 1.373px 0.687px -2.5px rgba(0, 0, 0, 0.16),
@@ -121,7 +120,6 @@
   color: inherit;
 }
 
-/* Image hover overlay */
 .blogs-card-images {
   position: relative;
   overflow: hidden;
@@ -166,8 +164,8 @@
   padding: 0.5rem 0;
 }
 
-.blogs-card-content span {
-  font-size: 16px;
+.blogs-card-content h1 {
+  font-size: 18px;
   color: #414042;
   display: block;
   margin-top: 1rem;
@@ -178,7 +176,7 @@
 }
 
 .blogs-card-content h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   color: #414042;
   line-height: 1.4;

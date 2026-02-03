@@ -19,8 +19,8 @@
   padding: 8rem 0 1rem 0;
 }
 
-.patient-swiper-content1 h1,
-.patient-swiper-content2 h1 {
+.patient-swiper-content1 h2,
+.patient-swiper-content2 h2 {
   border-radius: 33px;
   background: white;
   color: #333333;
@@ -36,7 +36,7 @@
   white-space: nowrap;
 }
 
-.patient-swiper-content2 h1 {
+.patient-swiper-content2 h2 {
   top: 30px;
 }
 

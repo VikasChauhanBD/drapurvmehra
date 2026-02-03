@@ -4,14 +4,14 @@
   background-color: #ffffff;
 }
 
-.devoted-main-container h1 {
+.devoted-main-container h2 {
   font-size: 2rem;
   color: #333333;
   text-transform: uppercase;
   text-align: center;
 }
 
-.devoted-main-container h2 {
+.devoted-main-container h3 {
   font-size: 1.5rem;
   color: #333333;
   font-weight: 100;
@@ -179,11 +179,11 @@
     width: 100%;
   }
 
-  .devoted-main-container h1 {
+  .devoted-main-container h2 {
     font-size: 1.5rem;
   }
 
-  .devoted-main-container h2 {
+  .devoted-main-container h3 {
     font-size: 22px;
     padding: 1rem;
   }

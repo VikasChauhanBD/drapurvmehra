@@ -50,7 +50,7 @@ function Specialities() {
 
   return (
     <div id="specialities" className="specialities-main-container">
-      <h1>From Bones to Joints - Complete Orthopedic Solutions</h1>
+      <h2>From Bones to Joints - Complete Orthopedic Solutions</h2>
       <div className="specialities-cards">
         <p className="specialities-subtitle">
           From Fractures to Robotic Joint Replacements - Complete Orthopedic

@@ -115,7 +115,7 @@ function VidyaJeevanWarrior() {
 
   return (
     <div id="vidya-jeevan-warrior" className="vjw-main-container">
-      <h1>VIDYA JEEVAN WARRIORS</h1>
+      <h2>VIDYA JEEVAN WARRIORS</h2>
       <div className="vjw-wrapper">
         <button className="vjw-btn left" onClick={() => scroll("left")}>
           ❮

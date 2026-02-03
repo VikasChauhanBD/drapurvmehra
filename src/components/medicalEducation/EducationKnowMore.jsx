@@ -14,8 +14,8 @@ function EducationKnowMore() {
       <div className="educationKM-content1">
         <div className="educationKM-hero-wrapper1">
           <div className="educationKM-para1">
-            <h3>eConceptual</h3>
-            <h4>Bridging the Gap Between Theory and Practice</h4>
+            <h4>eConceptual</h4>
+            <h5>Bridging the Gap Between Theory and Practice</h5>
             <p>
               As medicine evolves, so must medical education. With this vision,
               Dr. Mehra launched <b>eConceptual</b> - a next-generation platform
@@ -59,8 +59,8 @@ function EducationKnowMore() {
 
         <div className="educationKM-hero-wrapper2">
           <div className="educationKM-para2">
-            <h3>Cerebellum Academy</h3>
-            <h4>Where Passion Meets Purpose in Medical Learning</h4>
+            <h4>Cerebellum Academy</h4>
+            <h5>Where Passion Meets Purpose in Medical Learning</h5>
             <p>
               Co - founded by Dr. Mehra and four of India’s most respected
               medical educators, <b>Cerebellum Academy</b> has become a

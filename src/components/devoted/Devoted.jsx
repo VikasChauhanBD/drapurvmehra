@@ -16,8 +16,8 @@ function Devoted() {
 
   return (
     <div id="learning-and-leading" className="devoted-main-container">
-      <h1>A Life Devoted to Learning & Leading</h1>
-      <h2>Learning as a mission. Leading as a legacy</h2>
+      <h2>A Life Devoted to Learning & Leading</h2>
+      <h3>Learning as a mission. Leading as a legacy</h3>
 
       <div className="devoted-inner-container">
         {/* Devoted Titles + Content */}

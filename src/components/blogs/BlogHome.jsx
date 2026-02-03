@@ -82,7 +82,7 @@ const BlogHome = () => {
                     <img src={data.image} alt={data.metaTitle} />
                   </div>
                   <div className="blogs-card-content">
-                    <span>{data.metaTitle}</span>
+                    <h1>{data.metaTitle}</h1>
                     <h4>🗓️ {data.blogDate}</h4>
                     <h3>{data.metaDesc}</h3>
                     <p>Read More →</p>

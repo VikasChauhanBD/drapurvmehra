@@ -4,7 +4,7 @@
   background-color: rgb(252, 250, 250);
 }
 
-.specialities-main-container h1 {
+.specialities-main-container h2 {
   font-size: 2rem;
   color: #333333;
   text-transform: uppercase;
@@ -72,7 +72,7 @@
 }
 
 @media (max-width: 768px) {
-  .specialities-main-container h1 {
+  .specialities-main-container h2 {
     font-size: 1.5rem;
     padding-top: 0;
   }

@@ -55,7 +55,7 @@ function PatientsReviews() {
   return (
     <div id="patients-testimonial" className="patientsTM-main-container">
       <div className="patientsTM-content">
-        <h1>What patients say about Vidya Jeevan Ortho Clinic</h1>
+        <h2>What patients say about Vidya Jeevan Ortho Clinic</h2>
 
         <div className="patientsTM-cards" ref={studentsListRef}>
           {patientsReviews.map((data, index) => (
@@ -105,7 +105,7 @@ function PatientsReviews() {
         onClick={() =>
           window.open(
             "https://www.google.com/maps/place/Vidya+Jeevan/@28.661469,77.3114341,17z/data=!4m18!1m9!3m8!1s0x390d21f866f1b74d:0xb6f30db6d657b9f8!2sVidya+Jeevan!8m2!3d28.6614643!4d77.314009!9m1!1b1!16s%2Fg%2F11cm0h51gh!3m7!1s0x390d21f866f1b74d:0xb6f30db6d657b9f8!8m2!3d28.6614643!4d77.314009!9m1!1b1!16s%2Fg%2F11cm0h51gh?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D",
-            "_blank"
+            "_blank",
           )
         }
         className="patientsTM-btn"

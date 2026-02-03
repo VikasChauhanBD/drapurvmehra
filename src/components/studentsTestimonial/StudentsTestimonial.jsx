@@ -55,14 +55,14 @@ function StudentsTestimonial() {
   return (
     <div id="students-testimonial" className="studentTM-main-container">
       <div className="studentTM-content">
-        <h1>
-          What Students say about Vidya Jeevan Experience Centre, Greater Noida
-        </h1>
         <h2>
+          What Students say about Vidya Jeevan Experience Centre, Greater Noida
+        </h2>
+        <h3>
           “You’ll come here expecting academic support - but you leave with
           mentorship, clarity, and belief in yourself.”
           <br />- One of the many heartfelt reviews from students across India
-        </h2>
+        </h3>
 
         <div className="studentTM-cards" ref={studentsListRef}>
           {studentsData.map((data, index) => (
@@ -75,7 +75,7 @@ function StudentsTestimonial() {
               <div className="studentTM-image">
                 <img src={data.image} alt="" />
               </div>
-              <h3>{data.name}</h3>
+              <h4>{data.name}</h4>
               <p>
                 {expandedIndex === index ? (
                   <>

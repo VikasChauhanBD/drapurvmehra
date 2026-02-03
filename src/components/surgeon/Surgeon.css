@@ -4,14 +4,14 @@
   background-color: #ffffff;
 }
 
-.surgeon-main-container h1 {
+.surgeon-main-container h2 {
   font-size: 2rem;
   text-align: center;
   color: #333333;
   text-transform: uppercase;
 }
 
-.surgeon-main-container h2 {
+.surgeon-main-container h3 {
   font-size: 1.5rem;
   font-weight: 100;
   text-align: center;
@@ -94,12 +94,12 @@
 }
 
 @media (max-width: 768px) {
-  .surgeon-main-container h1 {
+  .surgeon-main-container h2 {
     font-size: 1.5rem;
     padding: 0 1rem;
   }
 
-  .surgeon-main-container h2 {
+  .surgeon-main-container h3 {
     font-size: 20px;
   }
 
@@ -120,7 +120,7 @@
 }
 
 @media (max-width: 568px) {
-  .surgeon-main-container h1 {
+  .surgeon-main-container h2 {
     padding: 0 10px;
   }
 

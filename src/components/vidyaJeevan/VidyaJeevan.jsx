@@ -10,8 +10,8 @@ function VidyaJeevan() {
 
   return (
     <div id="vidya-jeevan-experience-center" className="vidya-main-container">
-      <h1>VIDYA JEEVAN - An Educational Hub at Greater Noida</h1>
-      <h2>A Learning Centre Where Purpose Meets Preparation</h2>
+      <h2>VIDYA JEEVAN - An Educational Hub at Greater Noida</h2>
+      <h3>A Learning Centre Where Purpose Meets Preparation</h3>
 
       <div className="vidya-content">
         <div className="vidya-image">

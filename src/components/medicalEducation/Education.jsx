@@ -15,8 +15,8 @@ function Education() {
       id="econceptual-and-cerebellum-academy"
       className="education-main-container"
     >
-      <h1>Legacy & Inspiration</h1>
-      <h2>Built on Belief, Values & Purpose</h2>
+      <h2>Legacy & Inspiration</h2>
+      <h3>Built on Belief, Values & Purpose</h3>
 
       <div className="education-card">
         <div className="education-image">
@@ -27,8 +27,8 @@ function Education() {
         </div>
 
         <div className="education-content">
-          <h3>Shaping Minds, Inspiring Generations</h3>
-          <h4>- A Legacy of Learning </h4>
+          <h4>Shaping Minds, Inspiring Generations</h4>
+          <h5>- A Legacy of Learning </h5>
           <p>
             For Dr. Apurv Mehra, being a doctor has never been just about
             treating patients - it’s about{" "}

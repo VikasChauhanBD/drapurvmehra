@@ -5,14 +5,14 @@
   background-color: rgb(252, 250, 250);
 }
 
-.education-main-container h1 {
+.education-main-container h2 {
   font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
   color: #333333;
 }
 
-.education-main-container h2 {
+.education-main-container h3 {
   font-size: 1.5rem;
   color: #333333;
   font-weight: 100;
@@ -36,13 +36,13 @@
   justify-content: center;
 }
 
-.education-content h3 {
+.education-content h4 {
   font-size: 1.5rem;
   padding-bottom: 1rem;
   color: #333333;
 }
 
-.education-content h4 {
+.education-content h5 {
   font-size: 1.25rem;
   padding-bottom: 1rem;
   color: #333333;
@@ -73,21 +73,21 @@
 }
 
 @media (max-width: 1024px) {
-  .education-main-container h1 {
+  .education-main-container h2 {
     font-size: 1.5rem;
     padding: 1rem;
   }
 
-  .education-main-container h2 {
+  .education-main-container h3 {
     font-size: 1.25rem;
     padding: 0 1rem 1rem 1rem;
   }
 
-  .education-content h3 {
+  .education-content h4 {
     font-size: 1.25rem;
   }
 
-  .education-content h4 {
+  .education-content h5 {
     font-size: 18px;
   }
 }

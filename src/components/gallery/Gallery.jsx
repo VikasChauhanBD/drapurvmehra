@@ -56,13 +56,13 @@ function Gallery() {
   const goToPrevImage = () => {
     const images = galleryData[selectedGallery].images;
     setFullscreenImageIndex((prev) =>
-      prev === 0 ? images.length - 1 : prev - 1
+      prev === 0 ? images.length - 1 : prev - 1,
     );
   };
 
   return (
     <div id="gallery" className="gallery-main-container">
-      <h1>Gallery</h1>
+      <h2>Gallery</h2>
 
       {/* 📁 Folder View */}
       <div className="gallery-folder-list">
@@ -90,7 +90,7 @@ function Gallery() {
               </div>
             )}
             <div className="thumbnail-title">
-              <h2 dangerouslySetInnerHTML={{ __html: gallery.title }} />
+              <h3 dangerouslySetInnerHTML={{ __html: gallery.title }} />
             </div>
           </div>
         ))}
@@ -103,7 +103,7 @@ function Gallery() {
             <button className="gallery-modal-close-btn" onClick={closeModal}>
               ×
             </button>
-            <h2
+            <h3
               dangerouslySetInnerHTML={{
                 __html: galleryData[selectedGallery].title,
               }}

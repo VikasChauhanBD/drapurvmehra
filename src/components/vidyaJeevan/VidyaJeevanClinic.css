@@ -4,7 +4,7 @@
   background-color: #ffffff;
 }
 
-.vjc-main-container h1 {
+.vjc-main-container h2 {
   font-size: 2rem;
   text-align: center;
   color: #333333;
@@ -81,7 +81,7 @@
 }
 
 @media (max-width: 768px) {
-  .vjc-main-container h1 {
+  .vjc-main-container h2 {
     font-size: 1.5rem;
   }
 

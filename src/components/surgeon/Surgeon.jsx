@@ -12,8 +12,8 @@ function Surgeon() {
 
   return (
     <div id="leading-surgeon" className="surgeon-main-container">
-      <h1>Trusted Name in Robotic Knee & Hip Replacement </h1>
-      <h2>Known for precision. Chosen for compassion & care.</h2>
+      <h2>Trusted Name in Robotic Knee & Hip Replacement </h2>
+      <h3>Known for precision. Chosen for compassion & care.</h3>
 
       <div className="surgeon-content">
         <div className="surgeon-image">
