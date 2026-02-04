@@ -73,7 +73,7 @@ function StudentsTestimonial() {
               onMouseLeave={startScrolling}
             >
               <div className="studentTM-image">
-                <img src={data.image} alt="" />
+                <img src={data.image} alt={data.name} />
               </div>
               <h4>{data.name}</h4>
               <p>

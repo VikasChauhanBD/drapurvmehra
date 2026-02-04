@@ -61,7 +61,7 @@ function About() {
         </div>
 
         <div className="about-image">
-          <img src={Image} alt="about image" />
+          <img src={Image} alt="Dr. Apurv Mehra Clinic" />
         </div>
       </div>
     </div>

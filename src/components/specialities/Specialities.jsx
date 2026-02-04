@@ -60,7 +60,7 @@ function Specialities() {
         </p>
         {specialitiesData.map((data, index) => (
           <NavLink key={index} className="specialities-card" to={data.url}>
-            <img src={data.image} alt="bone image" />
+            <img src={data.image} alt={data.topic} />
             <h5>{data.topic}</h5>
           </NavLink>
         ))}

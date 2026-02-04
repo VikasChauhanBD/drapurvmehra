@@ -70,7 +70,7 @@ function VidyaJeevanClinic() {
         </div>
 
         <div className="vjc-image">
-          <img src={VJC} alt="" />
+          <img src={VJC} alt="Vidya Jeevan Clinic with Dr. Apurv Mehra" />
         </div>
       </div>
     </div>

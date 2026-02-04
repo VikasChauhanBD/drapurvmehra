@@ -22,7 +22,7 @@ function Education() {
         <div className="education-image">
           <img
             src="https://cdn.dribbble.com/userupload/44903066/file/8033217dc7108f7d1f7c44b52caf620d.webp"
-            alt="ec-CBA Image"
+            alt="eConceptual Platform and Cerebellum Academy Platform"
           />
         </div>
 

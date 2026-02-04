@@ -83,7 +83,7 @@ function Devoted() {
                 <img
                   key={data.id}
                   src={data.image}
-                  alt={`devoted ${data.id}`}
+                  alt={data.alt}
                   className={`devoted-image ${
                     selectedDevoted === data.id ? "opacity-100" : "opacity-0"
                   }`}

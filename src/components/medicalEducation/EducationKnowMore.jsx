@@ -44,7 +44,7 @@ function EducationKnowMore() {
         <div className="educationKM-image1">
           <img
             src="https://cdn.dribbble.com/userupload/44903070/file/202b703b21a6133216fb7b79154a6ed9.webp"
-            alt="eConceptual platforms image"
+            alt="eConceptual platforms by Dr. Apurv Mehra"
           />
         </div>
       </div>
@@ -53,7 +53,7 @@ function EducationKnowMore() {
         <div className="educationKM-image2">
           <img
             src="https://cdn.dribbble.com/userupload/44903068/file/7a5abeb3777fa5e4855dd5076a3b2906.png"
-            alt="Cerebellum mobile app interface"
+            alt="Cerebellum Academy Faculty"
           />
         </div>
 

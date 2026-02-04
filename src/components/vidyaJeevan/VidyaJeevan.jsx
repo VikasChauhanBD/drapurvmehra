@@ -17,7 +17,7 @@ function VidyaJeevan() {
         <div className="vidya-image">
           <img
             src="https://cdn.dribbble.com/userupload/44900639/file/89ff6369899675eb562f1a08026a429d.png"
-            alt="vidya image"
+            alt="Vidya Jeevan The Experience Centre Dr. Apurv Mehra"
           />
         </div>
 

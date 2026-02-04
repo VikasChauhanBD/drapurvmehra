@@ -69,7 +69,7 @@ const BlogHome = () => {
         <div className="blogs-header">
           <img
             src="https://cdn.dribbble.com/userupload/45840657/file/9e5129db160c35315f62032bcb3478e1.jpg"
-            alt="Blog Banner"
+            alt="Medical Residents with Dr. Apurv Mehra"
           />
         </div>
 
@@ -79,7 +79,7 @@ const BlogHome = () => {
               <article key={index} className="blogs-card">
                 <NavLink to={`/blog/${data.id}`}>
                   <div className="blogs-card-images">
-                    <img src={data.image} alt={data.metaTitle} />
+                    <img src={data.image} alt={data.alt} />
                   </div>
                   <div className="blogs-card-content">
                     <h1>{data.metaTitle}</h1>

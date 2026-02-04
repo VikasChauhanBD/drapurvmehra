@@ -35,19 +35,19 @@ function Header() {
         <Slider {...settings}>
           <img
             src="https://cdn.dribbble.com/userupload/44901582/file/b031112a040a6ec2b9785428a0b7ce06.webp"
-            alt="Banner1"
+            alt="Robotic Joint Replacement Surgery by Dr. Apurv Mehra "
           />
           <img
             src="https://cdn.dribbble.com/userupload/44901584/file/5588a002c9e935ea9d09b171b6f00f9c.jpg"
-            alt="Banner2"
+            alt="Motivation speech by Dr. Apurv Mehra"
           />
           <img
             src="https://cdn.dribbble.com/userupload/44901581/file/38bba8b551c98ec2f8fe8af308a40875.webp"
-            alt="Banner3"
+            alt="Class session by Dr. Apurv Sir"
           />
           <img
             src="https://cdn.dribbble.com/userupload/44901583/file/91dec966d33d81e8ab32b8f103348115.webp"
-            alt="Banner3"
+            alt="Motivation speech by Dr. Apurv Sir"
           />
         </Slider>
         <div className="header-banner-content">

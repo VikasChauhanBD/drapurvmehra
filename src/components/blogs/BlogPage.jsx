@@ -177,7 +177,7 @@ function BlogPage() {
         <div className="blog-container">
           <article className="blog-main-article">
             <div className="blog-hero-image">
-              <img src={blog.image} alt={blog.metaTitle} />
+              <img src={blog.image} alt={blog.alt} />
             </div>
 
             <div className="blog-meta-info">
@@ -235,7 +235,7 @@ function BlogPage() {
               <article key={data.id} className="recommended-blog-card">
                 <Link to={`/blog/${data.id}`}>
                   <div className="recommended-blog-card-images">
-                    <img src={data.image} alt={data.metaTitle} />
+                    <img src={data.image} alt={data.alt} />
                   </div>
 
                   <span>{data.metaTitle}</span>

@@ -6,22 +6,18 @@ import galleryData from "../../assets/data/galleryImagesData";
 
 function Gallery() {
   const [selectedGallery, setSelectedGallery] = useState(null);
-  const isModalOpen = selectedGallery !== null;
   const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
   const [showMessage, setShowMessage] = useState(false);
   const [fullscreenImageIndex, setFullscreenImageIndex] = useState(null);
+
+  const isModalOpen = selectedGallery !== null;
 
   useEffect(() => {
     AOS.init({ duration: 1000, offset: 200 });
   }, []);
 
   useEffect(() => {
-    if (isModalOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-
+    document.body.style.overflow = isModalOpen ? "hidden" : "auto";
     return () => {
       document.body.style.overflow = "auto";
     };
@@ -77,7 +73,7 @@ function Gallery() {
           >
             <div className="thumbnail-image">
               {gallery.images.slice(0, 2).map((img, i) => (
-                <img key={i} src={img} alt={`thumb-${i}`} />
+                <img key={i} src={img.src} alt={img.alt} />
               ))}
             </div>
 
@@ -89,6 +85,7 @@ function Gallery() {
                 Click To See More
               </div>
             )}
+
             <div className="thumbnail-title">
               <h3 dangerouslySetInnerHTML={{ __html: gallery.title }} />
             </div>
@@ -96,31 +93,33 @@ function Gallery() {
         ))}
       </div>
 
-      {/* 🖼️ Popup Modal View */}
+      {/* 🖼️ Modal View */}
       {selectedGallery !== null && (
         <div className="gallery-modal-overlay">
           <div className="gallery-modal">
             <button className="gallery-modal-close-btn" onClick={closeModal}>
               ×
             </button>
+
             <h3
               dangerouslySetInnerHTML={{
                 __html: galleryData[selectedGallery].title,
               }}
             />
+
             <div className="gallery-images-list">
               {galleryData[selectedGallery].images.map((img, i) => (
                 <img
                   key={i}
-                  src={img}
-                  alt={`gallery-${i}`}
+                  src={img.src}
+                  alt={img.alt}
                   onClick={() => openFullscreen(i)}
                 />
               ))}
             </div>
           </div>
 
-          {/* 🌌 Fullscreen Image Viewer */}
+          {/* 🌌 Fullscreen Viewer */}
           {fullscreenImageIndex !== null && (
             <div className="gallery-fullscreen-overlay">
               <button
@@ -129,17 +128,24 @@ function Gallery() {
               >
                 ×
               </button>
+
               <button
                 className="gallery-fullscreen-nav-btn gallery-fullscreen-prev"
                 onClick={goToPrevImage}
               >
                 ‹
               </button>
+
               <img
                 className="gallery-fullscreen-image"
-                src={galleryData[selectedGallery].images[fullscreenImageIndex]}
-                alt="fullscreen"
+                src={
+                  galleryData[selectedGallery].images[fullscreenImageIndex].src
+                }
+                alt={
+                  galleryData[selectedGallery].images[fullscreenImageIndex].alt
+                }
               />
+
               <button
                 className="gallery-fullscreen-nav-btn gallery-fullscreen-next"
                 onClick={goToNextImage}

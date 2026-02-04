@@ -4,6 +4,7 @@ const blogData = [
     blogDate: "January 20, 2026",
     image:
       "https://cdn.dribbble.com/userupload/46442751/file/524e68c36de5890d076bed9fd75c9c82.jpg",
+    alt: "NEET PG, INICET and FMGE Exam preparation with Dr. Apurv Mehra",
     metaTitle:
       "The Truth Behind the Coat: Read Before You Go for NEET PG/ INI CET & FMGE",
     metaDesc:
@@ -58,6 +59,7 @@ const blogData = [
     blogDate: "January 09, 2026",
     image:
       "https://cdn.dribbble.com/userupload/46320885/file/c445db8310599ff73c9d62786b9483ee.jpeg",
+    alt: "Entrance Exam insight with Dr. Apurv Mehra",
     metaTitle:
       "The Phase of Entrance Exams & Why It Hurts So Much Insight by Dr. Apurv Mehra",
     metaDesc:
@@ -122,6 +124,7 @@ const blogData = [
     blogDate: "December 30, 2025",
     image:
       "https://cdn.dribbble.com/userupload/46216136/file/a03d82a0f88ff8228e4b48daa3393c69.jpeg",
+    alt: "Motivational story with Dr. Apurv Mehra",
     metaTitle:
       "What I Learned When I Was the Only One Without a Rank at Maulana Azad Medical College: Motivational Story of Dr. Apurv Mehra",
     metaDesc:
@@ -239,6 +242,7 @@ const blogData = [
     blogDate: "December 16, 2025",
     image:
       "https://cdn.dribbble.com/userupload/46075414/file/e3cce26149fdb5cd96689ddcac50c70b.jpeg",
+    alt: "30 days FMGE preparation with Dr. Apurv Mehra",
     metaTitle: "30 Days to FMGE: A Practical, No-Fluff Plan By Dr. Apurv Mehra",
     metaDesc:
       "30 days to FMGE made simple. Dr. Apurv Mehra shares a practical, no-fluff plan focused on revision, MCQs, weak areas, and exam-day strategy.",
@@ -343,6 +347,7 @@ const blogData = [
     blogDate: "December 04, 2025",
     image:
       "https://cdn.dribbble.com/userupload/45939323/file/d60095c3b32fd8fe62d5f63fa9acefa8.jpeg",
+    alt: "Understanding Knee Implants with Dr. Apurv Mehra",
     metaTitle:
       "Understanding Knee Implants: Best Options, Materials & Robotic Compatibility - Explained by Dr. Apurv Mehra",
     metaDesc:
@@ -448,6 +453,7 @@ Why not offer patients the best, the safest, the most natural, and the most adva
     blogDate: "November 29, 2025",
     image:
       "https://cdn.dribbble.com/userupload/45878407/file/0cd76c90f3a0d4b4fe3a4a8eac4bbf4e.jpeg",
+    alt: "Spine Surgery Success Story with Dr. Apurv Mehra",
     metaTitle:
       "Spine Surgery Success Story at Vidya Jeevan | From Immobility to Walking Again",
     metaDesc:
@@ -507,6 +513,7 @@ Why not offer patients the best, the safest, the most natural, and the most adva
     blogDate: "November 13, 2025",
     image:
       "https://cdn.dribbble.com/userupload/45680701/file/deabb8a9c31bb2b7ebaa9b7b768f4342.jpeg",
+    alt: "Dr. Apurv Mehra life story",
     metaTitle:
       "Being a Doctor Isn't Easy, But Nothing Is More Beautiful - A Message by Dr. Apurv Mehra",
     metaDesc:
@@ -559,6 +566,7 @@ He reminds every doctor to hold onto the same passion they had when they first w
     blogDate: "October 13, 2025",
     image:
       "https://cdn.dribbble.com/userupload/45287513/file/f101749acf6cacb7a94b3568c5af2e67.jpg",
+    alt: "30 Days INICET preparation with Dr. Apurv Mehra",
     metaTitle:
       "MCQs, Mindset, and the 30-Day Formula to Crack INI-CET By Dr. Apurv Mehra",
     metaDesc:
@@ -647,6 +655,7 @@ The seat you want is already waiting for you. You just need to earn it with comp
     blogDate: "September 26, 2025",
     image:
       "https://cdn.dribbble.com/userupload/45072309/file/63aba84cee6b17d14dfc896ff55bdd11.jpeg",
+    alt: "Motivational for NEET PG & INICET Aspirants",
     metaTitle:
       "The Childhood Lesson That Changed My Life: Dr Apurv Mehra Motivation for NEET PG & INICET",
     metaDesc:
@@ -741,6 +750,7 @@ Give your 99%. Let God hold the water still for the final 1%. And when you final
     blogDate: "September 19, 2025",
     image:
       "https://cdn.dribbble.com/userupload/45072308/file/aba7fa5db2132b15467fe8b6f9fd61a7.jpeg",
+    alt: "NEET PG motivational speech with Dr. Apurv Mehra",
     metaTitle:
       "NEET PG Motivation: Rank, Respect & Your Future By Dr. Apurv Mehra",
     metaDesc:
