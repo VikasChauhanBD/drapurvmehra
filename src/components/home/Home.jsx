@@ -15,6 +15,7 @@ import VidyaJeevan from "../vidyaJeevan/VidyaJeevan";
 import StudentsTestimonial from "../studentsTestimonial/StudentsTestimonial";
 import Gallery from "../gallery/Gallery";
 import VideoPopup from "../videoPopup/VideoPopup";
+import SchemaMarkup from "../schemaMarkup/SchemaMarkup";
 
 function Home() {
   return (
@@ -26,6 +27,8 @@ function Home() {
           content="Dr. Apurv Mehra is a renowned Robotic Orthopedics joint replacement surgeon. Known for creating excellence worldwide in education for medico aspirants."
         />
       </Helmet>
+
+      <SchemaMarkup />
 
       <VideoPopup />
 
