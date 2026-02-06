@@ -14,7 +14,7 @@ import Motivational from "../motivational/Motivational";
 import VidyaJeevan from "../vidyaJeevan/VidyaJeevan";
 import StudentsTestimonial from "../studentsTestimonial/StudentsTestimonial";
 import Gallery from "../gallery/Gallery";
-import VideoPopup from "../videoPopup/VideoPopup";
+// import VideoPopup from "../videoPopup/VideoPopup";
 import SchemaMarkup from "../schemaMarkup/SchemaMarkup";
 
 function Home() {
@@ -30,7 +30,7 @@ function Home() {
 
       <SchemaMarkup />
 
-      <VideoPopup />
+      {/* <VideoPopup /> */}
 
       <Header />
       <About />

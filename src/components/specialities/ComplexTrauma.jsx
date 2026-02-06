@@ -11,6 +11,7 @@ const videosData = [
     id: 1,
     thumbnail:
       "https://cdn.dribbble.com/userupload/46445544/file/e17fd2c89ebe25e6a2483e1d5df1fa10.jpg",
+    alt: "Ms. Hafsa Bano with Dr. Apurv Mehra",
     url: "https://www.youtube.com/embed/oyCxetv-fXc",
   },
 ];
@@ -81,7 +82,7 @@ function ComplexTrauma() {
                 ></iframe>
               ) : (
                 <>
-                  <img src={video.thumbnail} alt="video Thumbnail" />
+                  <img src={video.thumbnail} alt={video.alt} />
                   <div className="trauma-play-icon">
                     <FaPlayCircle />
                   </div>

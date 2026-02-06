@@ -11,24 +11,28 @@ const videosData = [
     id: 1,
     thumbnail:
       "https://cdn.dribbble.com/userupload/46444838/file/eec9b2c17427de2d26549f0ebaf08654.jpg",
+    alt: "Mr. Rohit Kumar Maithani with Dr. Apurv Mehra",
     url: "https://www.youtube.com/embed/t8I30qDjQEI",
   },
   {
     id: 2,
     thumbnail:
       "https://cdn.dribbble.com/userupload/46444840/file/dc44543544e1fec208dd3114b1fef5ab.jpg",
+    alt: "Ms. Divya Jairath with Dr. Apurv Mehra",
     url: "https://www.youtube.com/embed/dAWjpv2pDdo",
   },
   {
     id: 3,
     thumbnail:
       "https://cdn.dribbble.com/userupload/46444837/file/10245a5232c4026811b1bc823213615c.jpg",
+    alt: "Mr. Pawan Singh with Dr. Apurv Mehra",
     url: "https://www.youtube.com/embed/TvoUqtqWVyc",
   },
   {
     id: 4,
     thumbnail:
       "https://cdn.dribbble.com/userupload/46444839/file/8124ba495f3aedecdb3e484f7d604883.jpg",
+    alt: "Ms. Shivangi with Dr. Apurv Mehra",
     url: "https://www.youtube.com/embed/CEMAGTqgAdw",
   },
 ];
@@ -99,7 +103,7 @@ function SpineSurgeries() {
                 ></iframe>
               ) : (
                 <>
-                  <img src={video.thumbnail} alt="video Thumbnail" />
+                  <img src={video.thumbnail} alt={video.alt} />
                   <div className="spine-play-icon">
                     <FaPlayCircle />
                   </div>

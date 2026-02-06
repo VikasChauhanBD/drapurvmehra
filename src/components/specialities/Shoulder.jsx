@@ -11,6 +11,7 @@ const videosData = [
     id: 1,
     thumbnail:
       "https://cdn.dribbble.com/userupload/46456792/file/2f8a7cac8c5808fb56de2ef9e31d93a9.jpg",
+    alt: "Ms. Meenakshi Sharma with Dr. Apurv Mehra",
     url: "https://www.youtube.com/embed/o6LlQm5SblA",
   },
   //   {
@@ -85,7 +86,7 @@ function Shoulder() {
                 ></iframe>
               ) : (
                 <>
-                  <img src={video.thumbnail} alt="video Thumbnail" />
+                  <img src={video.thumbnail} alt={video.alt} />
                   <div className="shoulder-play-icon">
                     <FaPlayCircle />
                   </div>

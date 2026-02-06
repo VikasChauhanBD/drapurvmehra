@@ -11,12 +11,14 @@ const videosData = [
     id: 1,
     thumbnail:
       "https://cdn.dribbble.com/userupload/46445542/file/3742d112d957fad9752871c1d49f8ec0.jpg",
+    alt: "Patient with Dr. Apurv Mehra",
     url: "https://www.youtube.com/embed/4EItkAnYsKI",
   },
   {
     id: 2,
     thumbnail:
       "https://cdn.dribbble.com/userupload/46445543/file/bced630ec6aea5973a1ab12a5670e8ce.jpg",
+    alt: "Patient with Dr. Apurv Mehra",
     url: "https://www.youtube.com/embed/orvrakiOEks",
   },
 ];
@@ -85,7 +87,7 @@ function JointReplacements() {
                 ></iframe>
               ) : (
                 <>
-                  <img src={video.thumbnail} alt="video Thumbnail" />
+                  <img src={video.thumbnail} alt={video.alt} />
                   <div className="joint-play-icon">
                     <FaPlayCircle />
                   </div>
