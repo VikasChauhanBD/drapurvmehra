@@ -1,7 +1,7 @@
 const blogData = [
   {
     id: "3rd-co-trauma-pinnacle-course-elevating-orthopedic-trauma-expertise",
-    blogDate: "January 25, 2026",
+    blogDate: "February 6, 2026",
     image:
       "https://cdn.dribbble.com/userupload/46647233/file/fcc2444082e41282d382f752eaef73f5.jpg",
     alt: "Orthopedics Trauma Pinnacle Course by Dr Apurv Mehra",
