@@ -23,7 +23,7 @@ function VidyaJeevan() {
 
         <div className="vidya-para">
           <p>
-            <b>Vidya Jeevan</b> is not just a learning hub - it’s a{" "}
+            <b>Vidya Jeevan</b> is not just a learning hub - it's a{" "}
             <b>vision brought to life by Dr. Apurv Mehra</b>, rooted in his
             belief that the right mentorship can shape not just successful
             doctors, but compassionate healers.
