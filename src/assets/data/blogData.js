@@ -1,5 +1,84 @@
 const blogData = [
   {
+    id: "3rd-co-trauma-pinnacle-course-elevating-orthopedic-trauma-expertise",
+    blogDate: "January 25, 2026",
+    image:
+      "https://cdn.dribbble.com/userupload/46647233/file/fcc2444082e41282d382f752eaef73f5.jpg",
+    alt: "Orthopedics Trauma Pinnacle Course by Dr Apurv Mehra",
+    metaTitle:
+      "3rd CO Trauma Pinnacle Course: Elevating Orthopedic Trauma Expertise",
+    metaDesc:
+      "Intensive learning meets real-world trauma care. The 3rd CO Trauma Pinnacle Course sharpens orthopedic trauma skills with expert-led, case-based training.",
+    author: "Dr. Apurv Mehra",
+    tags: [
+      "Orthopedics",
+      "Trauma Course",
+      "Surgical Training",
+      "Medical Education",
+      "CO Trauma",
+    ],
+    para: `The <b>3rd CO Trauma Pinnacle Course</b> is basically an indicator which has an advanced training program, and it is designed to push the boundaries of orthopedic trauma education in India. It is exclusively tailored for <b>Premium Subscribers</b> who have successfully completed their <b>CO Trauma Foundation Course</b>, and the intensive learning experience is typically crafted to transform skilled surgeons into confident trauma specialists.
+
+<p>The <b>Pinnacle course</b> has been scheduled from <b>27th to 29th March 2026</b> at <b>Vidya Jeevan, Greater Noida</b>, the course will be going to represent the pinnacle of hands-on <b>trauma training</b>, bringing together the best orthopedic mentors, with advanced surgical techniques, and immersive real-world case simulations.</p>
+
+<h4>Why the CO Trauma Pinnacle Course Matters</h4>
+
+<p>Orthopedic trauma care is constantly progressing, also it is demanding not just theoretical knowledge but also refined surgical judgment, exactness, and adaptability. The <b>CO Trauma Pinnacle Course</b> is basically structured to fill this gap by offering:</p>
+
+<li>• An advanced, hands-on surgical subjection</li>
+<li>• important and typical trauma case discussions</li>
+<li>• Mentorship from India's top orthopedic trauma experts</li>
+<li>• There will be practical decision-making in real-life scenarios</li>
+
+<p>This program is one of the most ideal surgeons who are ready to move forward to foundational learning and master advanced trauma management.</p>
+
+<h4>Ultimate Combo: Foundation + Pinnacle Course</h4>
+
+<p>Participants can also get the utmost benefit from the <b>Ultimate Combo</b>, which combines:</p>
+
+<li>• CO Trauma Foundation Course</li>
+<li>• CO Trauma Pinnacle Course</li>
+
+<p>This one will be the Super Saver Combo, which is specifically designed for learners who really want a structured continuation, from fundamentals to advanced trauma expertise, under one adhering academic pathway.</p>
+
+<h4>Course Eligibility</h4>
+
+<p>The <:>CO Trauma Pinnacle Course</b> is:</p>
+
+<li>• The course eligibility is <b>Exclusively for Premium Subscribers</b></li>
+<li>• Open only to those who have already <b>attended and completed their CO Trauma Foundation Course</b></li>
+
+<p>This will make sure about a high-level learning environment where all the participants share a strong foundational understanding.</p>
+
+<h4>CO Trauma Pinnacle Course Details</h4>
+
+<p><b>Venue:</b> Vidya Jeevan, Greater Noida<br/><b>Dates:</b> 27th - 29th March 2026</p>
+
+<p><b>Registration Fee:</b></p>
+
+<li>• It will be <b>₹20,000</b> for the <b>first 50 seats</b></li>
+<li>• <b>₹25,001</b> after the <b>first 50 seats are filled</b></li>
+
+<p><b>Note:</b> Registrations are <b>open exclusively through the eConceptual App.</b></p>
+
+<h4>What Makes This Course Unique?</h4>
+
+<li>• There will be total three-day intensive training format</li>
+<li>• Also, it has advanced trauma modules and surgical strategies</li>
+<li>• Residents will get high-level peer interaction</li>
+<li>• Uncovering to cutting-edge orthopedic trauma techniques</li>
+<li>• The focused should be on learning for serious trauma practitioners</li>
+
+<p>This is not just another workshop; it's a career-defining experience for orthopedic surgeons who want to stay ahead in trauma care.</p>
+
+<h4>Your Future in Orthopedics Starts Here</h4>
+
+<p>The <b>3rd CO Trauma Pinnacle Course</b> offers residents a once-in-a-lifetime opportunity to train themselves under the best minds in <b>orthopedic trauma training</b>, and you can also elevate your surgical expertise to new heights. it includes the limited seats, structured learning, and unmatched mentorship, this course perfectly sets the standard for premium trauma education in India.</p>
+
+<p>If you are committed to mastering orthopedic trauma and shaping a future of excellence, this is where your journey reaches its pinnacle.</p>
+`,
+  },
+  {
     id: "the-truth-behind-the-coat-read-before-you-go-for-neet-pg-ini-cet-and-fmge",
     blogDate: "January 20, 2026",
     image:
