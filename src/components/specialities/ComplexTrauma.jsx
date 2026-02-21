@@ -14,6 +14,13 @@ const videosData = [
     alt: "Ms. Hafsa Bano with Dr. Apurv Mehra",
     url: "https://www.youtube.com/embed/oyCxetv-fXc",
   },
+  {
+    id: 2,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/46817249/file/1fd0a45a5eca5da605c70eb501d83099.jpg",
+    alt: "Ms. Manju with Dr. Apurv Mehra",
+    url: "https://www.youtube.com/embed/eUxHrxhXhPk",
+  },
 ];
 
 function ComplexTrauma() {

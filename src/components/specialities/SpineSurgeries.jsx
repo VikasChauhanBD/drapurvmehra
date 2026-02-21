@@ -35,6 +35,13 @@ const videosData = [
     alt: "Ms. Shivangi with Dr. Apurv Mehra",
     url: "https://www.youtube.com/embed/CEMAGTqgAdw",
   },
+  {
+    id: 5,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/46817155/file/fc336be62c676779bf341082f4c217a9.jpg",
+    alt: "Ms. Laxmi Narayani Behera with Dr. Apurv Mehra",
+    url: "https://www.youtube.com/embed/X7oj7QH0-jU",
+  },
 ];
 
 function SpineSurgeries() {
