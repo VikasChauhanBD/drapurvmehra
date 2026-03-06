@@ -119,10 +119,16 @@
     <priority>0.7</priority>
   </url>
 
-   <!-- <url>
-    <loc>https://drapurv.com/blog/3rd-co-trauma-pinnacle-course-elevating-orthopedic-trauma-expertise</loc>
+   <url>
+    <loc>https://drapurv.com/blog/focus-shapes-your-future-why-what-you-concentrate-on-determines-who-you-become</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-  </url> -->
+  </url>
+
+  <url>
+    <loc>https://drapurv.com/blog/the-power-of-guidance-why-one-mentor-can-change-your-academic-journey</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
 </urlset>
