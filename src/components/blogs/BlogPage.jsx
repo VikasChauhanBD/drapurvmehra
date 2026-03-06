@@ -9,6 +9,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import LowerFooter from "../lowerFooter/LowerFooter";
 
 function BlogPage() {
   const { blogId } = useParams();
@@ -255,6 +256,8 @@ function BlogPage() {
           </div>
         </section>
       </div>
+
+      <LowerFooter />
     </>
   );
 }

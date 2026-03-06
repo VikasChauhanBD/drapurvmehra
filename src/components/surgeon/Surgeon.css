@@ -41,9 +41,10 @@
   color: #333333;
 }
 
-.surgeon-para h3 {
-  font-size: 22px;
-  padding-bottom: 1rem;
+.surgeon-para h5 {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 1rem 0;
 }
 
 .surgeon-para h4 {

@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import { FaPlayCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import LowerFooter from "../lowerFooter/LowerFooter";
 
 const videosData = [
   {
@@ -31,71 +32,75 @@ function Shoulder() {
   }, []);
 
   return (
-    <div className="shoulder-main-container">
-      <Helmet>
-        <title>Shoulder & Rotator Cuff Surgeries - Dr. Apurv Mehra</title>
-        <meta
-          name="description"
-          content="Dr. Apurv Mehra delivers expert shoulder and rotator cuff surgeries restoring strength stability and pain free movement with modern techniques."
-        />
-      </Helmet>
+    <>
+      <div className="shoulder-main-container">
+        <Helmet>
+          <title>Shoulder & Rotator Cuff Surgeries - Dr. Apurv Mehra</title>
+          <meta
+            name="description"
+            content="Dr. Apurv Mehra delivers expert shoulder and rotator cuff surgeries restoring strength stability and pain free movement with modern techniques."
+          />
+        </Helmet>
 
-      <div className="shoulder-nav">
-        <nav className="shoulder-breadcrumb">
-          <div className="shoulder-breadcrumb-content">
-            <span>›</span>
-            <span>Home</span>
-            <span>›</span>
-            <span>Specialities</span>
-            <span>›</span>
-            <span className="shoulder-breadcrumb-current">
-              Shoulder/Rotator Cuff Surgeries
-            </span>
-          </div>
-
-          <button
-            className="shoulder-breadcrumb-btn"
-            onClick={() => navigate("/")}
-          >
-            Home
-          </button>
-        </nav>
-      </div>
-
-      <h1>Shoulder/Rotator Cuff Surgeries</h1>
-
-      <div className="shoulder-cards" data-aos="fade-up">
-        {videosData
-          .slice()
-          .reverse()
-          .map((video) => (
-            <div
-              key={video.id}
-              className="shoulder-card"
-              onClick={() =>
-                setActiveVideo(activeVideo === video.id ? null : video.id)
-              }
-            >
-              {activeVideo === video.id ? (
-                <iframe
-                  src={`${video.url}?autoplay=1`}
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen
-                  frameBorder="0"
-                  title={`Video ${video.id}`}
-                ></iframe>
-              ) : (
-                <>
-                  <img src={video.thumbnail} alt={video.alt} />
-                  <div className="shoulder-play-icon">
-                    <FaPlayCircle />
-                  </div>
-                </>
-              )}
+        <div className="shoulder-nav">
+          <nav className="shoulder-breadcrumb">
+            <div className="shoulder-breadcrumb-content">
+              <span>›</span>
+              <span>Home</span>
+              <span>›</span>
+              <span>Specialities</span>
+              <span>›</span>
+              <span className="shoulder-breadcrumb-current">
+                Shoulder/Rotator Cuff Surgeries
+              </span>
             </div>
-          ))}
+
+            <button
+              className="shoulder-breadcrumb-btn"
+              onClick={() => navigate("/")}
+            >
+              Home
+            </button>
+          </nav>
+        </div>
+
+        <h1>Shoulder/Rotator Cuff Surgeries</h1>
+
+        <div className="shoulder-cards" data-aos="fade-up">
+          {videosData
+            .slice()
+            .reverse()
+            .map((video) => (
+              <div
+                key={video.id}
+                className="shoulder-card"
+                onClick={() =>
+                  setActiveVideo(activeVideo === video.id ? null : video.id)
+                }
+              >
+                {activeVideo === video.id ? (
+                  <iframe
+                    src={`${video.url}?autoplay=1`}
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen
+                    frameBorder="0"
+                    title={`Video ${video.id}`}
+                  ></iframe>
+                ) : (
+                  <>
+                    <img src={video.thumbnail} alt={video.alt} />
+                    <div className="shoulder-play-icon">
+                      <FaPlayCircle />
+                    </div>
+                  </>
+                )}
+              </div>
+            ))}
+        </div>
       </div>
-    </div>
+
+      <LowerFooter />
+    </>
   );
 }
 

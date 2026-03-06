@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import { FaPlayCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import LowerFooter from "../lowerFooter/LowerFooter";
 
 const videosData = [
   {
@@ -77,6 +78,13 @@ const videosData = [
     alt: "Mr. Sanjeev Rathi with Dr. Apurv Mehra",
     url: "https://www.youtube.com/embed/umZv71uKXa8",
   },
+  {
+    id: 11,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/46963507/file/7348872bcd6f5adc01c26952a105c135.jpg",
+    alt: "Mr. Shardendu Shrivastav with Dr. Apurv Mehra",
+    url: "https://www.youtube.com/embed/ezFlXSqeI0w",
+  },
 ];
 
 function RoboticTotalKneeReplacement() {
@@ -88,71 +96,75 @@ function RoboticTotalKneeReplacement() {
   }, []);
 
   return (
-    <div className="robotic-main-container">
-      <Helmet>
-        <title>Robotic Total Knee Replacement - Dr. Apurv Mehra</title>
-        <meta
-          name="description"
-          content="Explore robotic total knee replacement by Dr. Apurv Mehra with precise planning, better alignment, faster recovery, and patient focused care."
-        />
-      </Helmet>
+    <>
+      <div className="robotic-main-container">
+        <Helmet>
+          <title>Robotic Total Knee Replacement - Dr. Apurv Mehra</title>
+          <meta
+            name="description"
+            content="Explore robotic total knee replacement by Dr. Apurv Mehra with precise planning, better alignment, faster recovery, and patient focused care."
+          />
+        </Helmet>
 
-      <div className="robotic-nav">
-        <nav className="robotic-breadcrumb">
-          <div className="robotic-breadcrumb-content">
-            <span>›</span>
-            <span>Home</span>
-            <span>›</span>
-            <span>Specialities</span>
-            <span>›</span>
-            <span className="robotic-breadcrumb-current">
-              Robotic Total Knee Replacement
-            </span>
-          </div>
-
-          <button
-            className="robotic-breadcrumb-btn"
-            onClick={() => navigate("/")}
-          >
-            Home
-          </button>
-        </nav>
-      </div>
-
-      <h1>Robotic Total Knee Replacement</h1>
-
-      <div className="robotic-cards" data-aos="fade-up">
-        {videosData
-          .slice()
-          .reverse()
-          .map((video) => (
-            <div
-              key={video.id}
-              className="robotic-card"
-              onClick={() =>
-                setActiveVideo(activeVideo === video.id ? null : video.id)
-              }
-            >
-              {activeVideo === video.id ? (
-                <iframe
-                  src={`${video.url}?autoplay=1`}
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen
-                  frameBorder="0"
-                  title={`Video ${video.id}`}
-                ></iframe>
-              ) : (
-                <>
-                  <img src={video.thumbnail} alt={video.alt} />
-                  <div className="robotic-play-icon">
-                    <FaPlayCircle />
-                  </div>
-                </>
-              )}
+        <div className="robotic-nav">
+          <nav className="robotic-breadcrumb">
+            <div className="robotic-breadcrumb-content">
+              <span>›</span>
+              <span>Home</span>
+              <span>›</span>
+              <span>Specialities</span>
+              <span>›</span>
+              <span className="robotic-breadcrumb-current">
+                Robotic Total Knee Replacement
+              </span>
             </div>
-          ))}
+
+            <button
+              className="robotic-breadcrumb-btn"
+              onClick={() => navigate("/")}
+            >
+              Home
+            </button>
+          </nav>
+        </div>
+
+        <h1>Robotic Total Knee Replacement</h1>
+
+        <div className="robotic-cards" data-aos="fade-up">
+          {videosData
+            .slice()
+            .reverse()
+            .map((video) => (
+              <div
+                key={video.id}
+                className="robotic-card"
+                onClick={() =>
+                  setActiveVideo(activeVideo === video.id ? null : video.id)
+                }
+              >
+                {activeVideo === video.id ? (
+                  <iframe
+                    src={`${video.url}?autoplay=1`}
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen
+                    frameBorder="0"
+                    title={`Video ${video.id}`}
+                  ></iframe>
+                ) : (
+                  <>
+                    <img src={video.thumbnail} alt={video.alt} />
+                    <div className="robotic-play-icon">
+                      <FaPlayCircle />
+                    </div>
+                  </>
+                )}
+              </div>
+            ))}
+        </div>
       </div>
-    </div>
+
+      <LowerFooter />
+    </>
   );
 }
 

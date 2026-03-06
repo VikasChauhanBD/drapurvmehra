@@ -24,7 +24,7 @@ function Surgeon() {
         </div>
 
         <div className="surgeon-para">
-          <h3>Dr. Apurv Mehra</h3>
+          <h5>Dr. Apurv Mehra</h5>
           <h4>A Name You Can Trust in Orthopaedic Care</h4>
           <p>
             With over <b>22 years of experience</b>, Dr. Apurv Mehra is widely

@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import { FaPlayCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import LowerFooter from "../lowerFooter/LowerFooter";
 
 const videosData = [
   {
@@ -32,40 +33,41 @@ function JointReplacements() {
   }, []);
 
   return (
-    <div className="joint-main-container">
-      <Helmet>
-        <title>Complex & Revision Joint Replacements - Dr. Apurv Mehra</title>
-        <meta
-          name="description"
-          content="Dr. Apurv Mehra specializes in complex and revision joint replacements offering precise solutions for failed implants pain relief and renewed mobility."
-        />
-      </Helmet>
+    <>
+      <div className="joint-main-container">
+        <Helmet>
+          <title>Complex & Revision Joint Replacements - Dr. Apurv Mehra</title>
+          <meta
+            name="description"
+            content="Dr. Apurv Mehra specializes in complex and revision joint replacements offering precise solutions for failed implants pain relief and renewed mobility."
+          />
+        </Helmet>
 
-      <div className="joint-nav">
-        <nav className="joint-breadcrumb">
-          <div className="joint-breadcrumb-content">
-            <span>›</span>
-            <span>Home</span>
-            <span>›</span>
-            <span>Specialities</span>
-            <span>›</span>
-            <span className="joint-breadcrumb-current">
-              Complex and Revision Joint Replacements
-            </span>
-          </div>
+        <div className="joint-nav">
+          <nav className="joint-breadcrumb">
+            <div className="joint-breadcrumb-content">
+              <span>›</span>
+              <span>Home</span>
+              <span>›</span>
+              <span>Specialities</span>
+              <span>›</span>
+              <span className="joint-breadcrumb-current">
+                Complex and Revision Joint Replacements
+              </span>
+            </div>
 
-          <button
-            className="joint-breadcrumb-btn"
-            onClick={() => navigate("/")}
-          >
-            Home
-          </button>
-        </nav>
-      </div>
+            <button
+              className="joint-breadcrumb-btn"
+              onClick={() => navigate("/")}
+            >
+              Home
+            </button>
+          </nav>
+        </div>
 
-      <h1>Complex and Revision Joint Replacements</h1>
+        <h1>Complex and Revision Joint Replacements</h1>
 
-      {/* <div className="joint-cards" data-aos="fade-up">
+        {/* <div className="joint-cards" data-aos="fade-up">
         {videosData
           .slice()
           .reverse()
@@ -96,7 +98,10 @@ function JointReplacements() {
             </div>
           ))}
       </div> */}
-    </div>
+      </div>
+
+      <LowerFooter />
+    </>
   );
 }
 

@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import { FaPlayCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import LowerFooter from "../lowerFooter/LowerFooter";
 
 const videosData = [
   {
@@ -32,68 +33,75 @@ function Acl() {
   }, []);
 
   return (
-    <div className="acl-main-container">
-      <Helmet>
-        <title>Arthroscopic ACL Reconstructions - Dr. Apurv Mehra</title>
-        <meta
-          name="description"
-          content="Dr. Apurv Mehra specializes in arthroscopic ACL reconstructions delivering stable knees minimal scars faster recovery and confident return to sports."
-        />
-      </Helmet>
+    <>
+      <div className="acl-main-container">
+        <Helmet>
+          <title>Arthroscopic ACL Reconstructions - Dr. Apurv Mehra</title>
+          <meta
+            name="description"
+            content="Dr. Apurv Mehra specializes in arthroscopic ACL reconstructions delivering stable knees minimal scars faster recovery and confident return to sports."
+          />
+        </Helmet>
 
-      <div className="acl-nav">
-        <nav className="acl-breadcrumb">
-          <div className="acl-breadcrumb-content">
-            <span>›</span>
-            <span>Home</span>
-            <span>›</span>
-            <span>Specialities</span>
-            <span>›</span>
-            <span className="acl-breadcrumb-current">
-              Arthroscopic ACL Reconstructions
-            </span>
-          </div>
-
-          <button className="acl-breadcrumb-btn" onClick={() => navigate("/")}>
-            Home
-          </button>
-        </nav>
-      </div>
-
-      <h1>Arthroscopic ACL Reconstructions</h1>
-
-      <div className="acl-cards" data-aos="fade-up">
-        {videosData
-          .slice()
-          .reverse()
-          .map((video) => (
-            <div
-              key={video.id}
-              className="acl-card"
-              onClick={() =>
-                setActiveVideo(activeVideo === video.id ? null : video.id)
-              }
-            >
-              {activeVideo === video.id ? (
-                <iframe
-                  src={`${video.url}?autoplay=1`}
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen
-                  frameBorder="0"
-                  title={`Video ${video.id}`}
-                ></iframe>
-              ) : (
-                <>
-                  <img src={video.thumbnail} alt={video.alt} />
-                  <div className="acl-play-icon">
-                    <FaPlayCircle />
-                  </div>
-                </>
-              )}
+        <div className="acl-nav">
+          <nav className="acl-breadcrumb">
+            <div className="acl-breadcrumb-content">
+              <span>›</span>
+              <span>Home</span>
+              <span>›</span>
+              <span>Specialities</span>
+              <span>›</span>
+              <span className="acl-breadcrumb-current">
+                Arthroscopic ACL Reconstructions
+              </span>
             </div>
-          ))}
+
+            <button
+              className="acl-breadcrumb-btn"
+              onClick={() => navigate("/")}
+            >
+              Home
+            </button>
+          </nav>
+        </div>
+
+        <h1>Arthroscopic ACL Reconstructions</h1>
+
+        <div className="acl-cards" data-aos="fade-up">
+          {videosData
+            .slice()
+            .reverse()
+            .map((video) => (
+              <div
+                key={video.id}
+                className="acl-card"
+                onClick={() =>
+                  setActiveVideo(activeVideo === video.id ? null : video.id)
+                }
+              >
+                {activeVideo === video.id ? (
+                  <iframe
+                    src={`${video.url}?autoplay=1`}
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen
+                    frameBorder="0"
+                    title={`Video ${video.id}`}
+                  ></iframe>
+                ) : (
+                  <>
+                    <img src={video.thumbnail} alt={video.alt} />
+                    <div className="acl-play-icon">
+                      <FaPlayCircle />
+                    </div>
+                  </>
+                )}
+              </div>
+            ))}
+        </div>
       </div>
-    </div>
+
+      <LowerFooter />
+    </>
   );
 }
 

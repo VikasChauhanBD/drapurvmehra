@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import { FaPlayCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import LowerFooter from "../lowerFooter/LowerFooter";
 
 const videosData = [
   {
@@ -32,73 +33,77 @@ function ComplexTrauma() {
   }, []);
 
   return (
-    <div className="trauma-main-container">
-      <Helmet>
-        <title>
-          Complex Trauma & Pelvic Acetabular Surgeries - Dr. Apurv Mehra
-        </title>
-        <meta
-          name="description"
-          content="Dr. Apurv Mehra offers expert care in complex trauma and pelvic acetabular surgeries using advanced techniques for stability recovery and mobility."
-        />
-      </Helmet>
+    <>
+      <div className="trauma-main-container">
+        <Helmet>
+          <title>
+            Complex Trauma & Pelvic Acetabular Surgeries - Dr. Apurv Mehra
+          </title>
+          <meta
+            name="description"
+            content="Dr. Apurv Mehra offers expert care in complex trauma and pelvic acetabular surgeries using advanced techniques for stability recovery and mobility."
+          />
+        </Helmet>
 
-      <div className="trauma-nav">
-        <nav className="trauma-breadcrumb">
-          <div className="trauma-breadcrumb-content">
-            <span>›</span>
-            <span>Home</span>
-            <span>›</span>
-            <span>Specialities</span>
-            <span>›</span>
-            <span className="trauma-breadcrumb-current">
-              Complex Trauma & Pelvic - Acetabular Surgeries
-            </span>
-          </div>
-
-          <button
-            className="trauma-breadcrumb-btn"
-            onClick={() => navigate("/")}
-          >
-            Home
-          </button>
-        </nav>
-      </div>
-
-      <h1>Complex Trauma & Pelvic - Acetabular Surgeries</h1>
-
-      <div className="trauma-cards" data-aos="fade-up">
-        {videosData
-          .slice()
-          .reverse()
-          .map((video) => (
-            <div
-              key={video.id}
-              className="trauma-card"
-              onClick={() =>
-                setActiveVideo(activeVideo === video.id ? null : video.id)
-              }
-            >
-              {activeVideo === video.id ? (
-                <iframe
-                  src={`${video.url}?autoplay=1`}
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen
-                  frameBorder="0"
-                  title={`Video ${video.id}`}
-                ></iframe>
-              ) : (
-                <>
-                  <img src={video.thumbnail} alt={video.alt} />
-                  <div className="trauma-play-icon">
-                    <FaPlayCircle />
-                  </div>
-                </>
-              )}
+        <div className="trauma-nav">
+          <nav className="trauma-breadcrumb">
+            <div className="trauma-breadcrumb-content">
+              <span>›</span>
+              <span>Home</span>
+              <span>›</span>
+              <span>Specialities</span>
+              <span>›</span>
+              <span className="trauma-breadcrumb-current">
+                Complex Trauma & Pelvic - Acetabular Surgeries
+              </span>
             </div>
-          ))}
+
+            <button
+              className="trauma-breadcrumb-btn"
+              onClick={() => navigate("/")}
+            >
+              Home
+            </button>
+          </nav>
+        </div>
+
+        <h1>Complex Trauma & Pelvic - Acetabular Surgeries</h1>
+
+        <div className="trauma-cards" data-aos="fade-up">
+          {videosData
+            .slice()
+            .reverse()
+            .map((video) => (
+              <div
+                key={video.id}
+                className="trauma-card"
+                onClick={() =>
+                  setActiveVideo(activeVideo === video.id ? null : video.id)
+                }
+              >
+                {activeVideo === video.id ? (
+                  <iframe
+                    src={`${video.url}?autoplay=1`}
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen
+                    frameBorder="0"
+                    title={`Video ${video.id}`}
+                  ></iframe>
+                ) : (
+                  <>
+                    <img src={video.thumbnail} alt={video.alt} />
+                    <div className="trauma-play-icon">
+                      <FaPlayCircle />
+                    </div>
+                  </>
+                )}
+              </div>
+            ))}
+        </div>
       </div>
-    </div>
+
+      <LowerFooter />
+    </>
   );
 }
 

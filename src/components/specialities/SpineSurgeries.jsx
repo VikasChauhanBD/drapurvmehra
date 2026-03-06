@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import { FaPlayCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import LowerFooter from "../lowerFooter/LowerFooter";
 
 const videosData = [
   {
@@ -53,73 +54,77 @@ function SpineSurgeries() {
   }, []);
 
   return (
-    <div className="spine-main-container">
-      <Helmet>
-        <title>
-          Limb Deformity Corrections & Spine Surgeries - Dr. Apurv Mehra
-        </title>
-        <meta
-          name="description"
-          content="Dr. Apurv Mehra provides advanced limb deformity correction and spine surgeries focused on alignment pain relief mobility and long term outcomes."
-        />
-      </Helmet>
+    <>
+      <div className="spine-main-container">
+        <Helmet>
+          <title>
+            Limb Deformity Corrections & Spine Surgeries - Dr. Apurv Mehra
+          </title>
+          <meta
+            name="description"
+            content="Dr. Apurv Mehra provides advanced limb deformity correction and spine surgeries focused on alignment pain relief mobility and long term outcomes."
+          />
+        </Helmet>
 
-      <div className="spine-nav">
-        <nav className="spine-breadcrumb">
-          <div className="spine-breadcrumb-content">
-            <span>›</span>
-            <span>Home</span>
-            <span>›</span>
-            <span>Specialities</span>
-            <span>›</span>
-            <span className="spine-breadcrumb-current">
-              Limb Deformity Corrections & Spine Surgeries
-            </span>
-          </div>
-
-          <button
-            className="spine-breadcrumb-btn"
-            onClick={() => navigate("/")}
-          >
-            Home
-          </button>
-        </nav>
-      </div>
-
-      <h1>Limb Deformity Corrections & Spine Surgeries</h1>
-
-      <div className="spine-cards" data-aos="fade-up">
-        {videosData
-          .slice()
-          .reverse()
-          .map((video) => (
-            <div
-              key={video.id}
-              className="spine-card"
-              onClick={() =>
-                setActiveVideo(activeVideo === video.id ? null : video.id)
-              }
-            >
-              {activeVideo === video.id ? (
-                <iframe
-                  src={`${video.url}?autoplay=1`}
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen
-                  frameBorder="0"
-                  title={`Video ${video.id}`}
-                ></iframe>
-              ) : (
-                <>
-                  <img src={video.thumbnail} alt={video.alt} />
-                  <div className="spine-play-icon">
-                    <FaPlayCircle />
-                  </div>
-                </>
-              )}
+        <div className="spine-nav">
+          <nav className="spine-breadcrumb">
+            <div className="spine-breadcrumb-content">
+              <span>›</span>
+              <span>Home</span>
+              <span>›</span>
+              <span>Specialities</span>
+              <span>›</span>
+              <span className="spine-breadcrumb-current">
+                Limb Deformity Corrections & Spine Surgeries
+              </span>
             </div>
-          ))}
+
+            <button
+              className="spine-breadcrumb-btn"
+              onClick={() => navigate("/")}
+            >
+              Home
+            </button>
+          </nav>
+        </div>
+
+        <h1>Limb Deformity Corrections & Spine Surgeries</h1>
+
+        <div className="spine-cards" data-aos="fade-up">
+          {videosData
+            .slice()
+            .reverse()
+            .map((video) => (
+              <div
+                key={video.id}
+                className="spine-card"
+                onClick={() =>
+                  setActiveVideo(activeVideo === video.id ? null : video.id)
+                }
+              >
+                {activeVideo === video.id ? (
+                  <iframe
+                    src={`${video.url}?autoplay=1`}
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen
+                    frameBorder="0"
+                    title={`Video ${video.id}`}
+                  ></iframe>
+                ) : (
+                  <>
+                    <img src={video.thumbnail} alt={video.alt} />
+                    <div className="spine-play-icon">
+                      <FaPlayCircle />
+                    </div>
+                  </>
+                )}
+              </div>
+            ))}
+        </div>
       </div>
-    </div>
+
+      <LowerFooter />
+    </>
   );
 }
 

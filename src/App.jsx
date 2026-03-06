@@ -5,6 +5,7 @@ import ScrollToTop from "./ScrollToTop";
 import ScrollToTopButton from "./components/scrollToTopButton/ScrollToTopButton";
 import Footer from "./components/footer/Footer";
 import MobileFooter from "./components/mobileFooter/MobileFooter";
+import LowerFooter from "./components/lowerFooter/LowerFooter";
 import RoboticTotalKneeReplacement from "./components/specialities/RoboticTotalKneeReplacement";
 import JointReplacements from "./components/specialities/JointReplacements";
 import Acl from "./components/specialities/Acl";
@@ -27,6 +28,7 @@ function Layout({ children, showSharedComponents = true }) {
           <ScrollToTopButton />
           <Footer />
           <MobileFooter />
+          <LowerFooter />
         </>
       )}
     </>

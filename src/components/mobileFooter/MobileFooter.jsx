@@ -154,11 +154,6 @@ function MobileFooter() {
           </div>
         </div>
       </footer>
-
-      <footer className="lower-footer-mobile">
-        <hr />
-        <p>© 2025 Dr. Apurv Mehra</p>
-      </footer>
     </>
   );
 }

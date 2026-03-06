@@ -86,7 +86,8 @@
 }
 
 @media (max-width: 768px) {
-  .patient-swiper-container h1 {
+  .patient-swiper-content1 h2,
+  .patient-swiper-content2 h2 {
     font-size: 1.5rem;
     padding: 1rem;
   }
@@ -96,9 +97,10 @@
   }
 }
 
-@media (max-width: 468px) {
-  .patient-swiper-container h1 {
-    font-size: 1rem;
+@media (max-width: 568px) {
+  .patient-swiper-content1 h2,
+  .patient-swiper-content2 h2 {
+    font-size: 1.25rem;
   }
 
   .patient-swiper-slide {

@@ -3,6 +3,7 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./BlogHome.css";
 import blogData from "../../assets/data/blogData";
 import { Helmet } from "react-helmet";
+import LowerFooter from "../lowerFooter/LowerFooter";
 
 const BlogHome = () => {
   const navigate = useNavigate();
@@ -128,6 +129,8 @@ const BlogHome = () => {
           )}
         </main>
       </div>
+
+      <LowerFooter />
     </>
   );
 };

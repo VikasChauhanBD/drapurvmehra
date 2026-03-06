@@ -98,30 +98,6 @@
   font-weight: 100;
 }
 
-.lower-footer {
-  width: 100%;
-  background-color: #333333;
-}
-
-.lower-footer hr {
-  width: 100%;
-  height: 2px;
-  border: 0;
-  background-color: rgb(129, 129, 129);
-}
-
-.lower-footer p {
-  font-size: 14px;
-  color: #ffffff;
-  letter-spacing: 1px;
-  text-align: center;
-  padding: 10px 0;
-}
-
-.lower-footer a {
-  color: #ffffff;
-}
-
 /* ------------------------------------ Responsive Style ------------------------- */
 
 @media (max-width: 1440px) {
@@ -148,9 +124,6 @@
 
 @media (max-width: 568px) {
   .footer-container {
-    display: none;
-  }
-  .lower-footer {
     display: none;
   }
 }

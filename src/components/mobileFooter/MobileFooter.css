@@ -1,5 +1,4 @@
-.footer-mobile,
-.lower-footer-mobile {
+.footer-mobile {
   display: none;
 }
 
@@ -86,26 +85,5 @@
   .footer-quick-links ul,
   .footer-mobile-social-media-links {
     transition: all 0.3s ease;
-  }
-
-  .lower-footer-mobile {
-    display: block;
-    width: 100%;
-    background-color: #333333;
-  }
-
-  .lower-footer-mobile hr {
-    width: 100%;
-    height: 2px;
-    border: 0;
-    background-color: rgb(129, 129, 129);
-  }
-
-  .lower-footer-mobile p {
-    font-size: 14px;
-    color: #ffffff;
-    letter-spacing: 1px;
-    text-align: center;
-    padding: 10px 0;
   }
 }
