@@ -1,12 +1,12 @@
 const blogData = [
   {
-    id: "small-adjustments-today-dream-medical-seat-tomorrow-lessons-from-dr-apurv-mehra",
+    id: "small-adjustments-today-dream-medical-seat-tomorrow-lesson-from-dr-apurv-mehra",
     blogDate: "March 26, 2026",
     image:
-      "https://cdn.dribbble.com/userupload/47172811/file/00f9461292f0501df13c626fbe682ba2.jpeg",
-    alt: "A Motivation Lessons from Dr. Apurv Mehra",
+      "https://cdn.dribbble.com/userupload/47172811/file/2f17c97d8409f1a61255d7b3ad5f3890.jpeg",
+    alt: "A Motivation Lesson from Dr. Apurv Mehra",
     metaTitle:
-      "Small Adjustments Today = Dream Medical Seat Tomorrow : A Lessons from Dr. Apurv Mehra",
+      "Small Adjustments Today = Dream Medical Seat Tomorrow : A Lesson from Dr. Apurv Mehra",
     metaDesc:
       "Small daily improvements, consistent revision, and the right mindset can turn your medical dream into reality. Learn discipline, focus, and strategy from Dr. Apurv Mehra.",
     author: "Dr. Apurv Mehra",
