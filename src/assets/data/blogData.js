@@ -1,5 +1,158 @@
 const blogData = [
   {
+    id: "small-adjustments-today-dream-medical-seat-tomorrow-lessons-from-dr-apurv-mehra",
+    blogDate: "March 26, 2026",
+    image:
+      "https://cdn.dribbble.com/userupload/47172811/file/00f9461292f0501df13c626fbe682ba2.jpeg",
+    alt: "A Motivation Lessons from Dr. Apurv Mehra",
+    metaTitle:
+      "Small Adjustments Today = Dream Medical Seat Tomorrow : A Lessons from Dr. Apurv Mehra",
+    metaDesc:
+      "Small daily improvements, consistent revision, and the right mindset can turn your medical dream into reality. Learn discipline, focus, and strategy from Dr. Apurv Mehra.",
+    author: "Dr. Apurv Mehra",
+    tags: [
+      "Medical Education",
+      "NEET PG",
+      "Motivation",
+      "Study Strategy",
+      "Discipline",
+    ],
+    para: `Dr. Apurv Mehra is not just an orthopedic surgeon - he is a powerful motivator who keeps sharing his life experiences and journey in a way that truly connects with every medical student. He understands the struggle, the pressure, and the reality of a medical resident's life better than most. Every time he speaks, there's something real, something practical, something you can actually apply.
+
+<p>And just like always, here's a blog inspired by one of his latest talks -filled with simple truths that can quietly change your preparation.</p>
+
+<p><b>Watch Video:</b> <a href="https://youtu.be/IvBY9xP_plw?si=AOj3IuTWc_bWz-WT" target="_blank">Small Adjustments Today = Dream Medical Seat Tomorrow | Dr. Apurv Mehra Motivation</a></p>
+
+<h4>Stop Complaining, Start Adjusting</h4>
+
+<p>One of the most striking lessons from Dr. Apurv Mehra's talk is incredibly simple:</p>
+
+<p><b>"If you are sitting on a chair to study, don't look for defects in the chair. Study."</b></p>
+
+<p>How often do we delay studying because:</p>
+
+<li>• The chair isn't comfortable</li>
+<li>• The room isn't perfect</li>
+<li>• The library seat isn't available</li>
+<li>• There's too much noise</li>
+
+<p>But the truth is - <b>toppers don't wait for perfect conditions.</b></p>
+
+<p>He shares real examples of students who studied anywhere they could - on the floor, outside offices, even in less-than-ideal spaces. They didn't wait. They adapted.</p>
+
+<p>Because in the end, a serious student needs just one thing - <b>the will to study.</b></p>
+
+<h4>Adjustment vs Sacrifice: Know the Difference</h4>
+
+<p>This is where most students get confused.</p>
+
+<p><b>Adjustment</b></p>
+
+<li>• Studying even when conditions are not perfect</li>
+<li>• Managing time smartly</li>
+<li>• Being flexible with surroundings</li>
+
+<p><b>Sacrifice</b></p>
+
+<li>• Letting go of comfort</li>
+<li>• Missing out on entertainment</li>
+<li>• Choosing long-term goals over short-term happiness</li>
+
+<p>He emphasizes that both are important - but they are not the same.</p>
+
+<p><b>"People often win in sacrifice but lose in adjustment."</b></p>
+
+<p>You may wake up early, study long hours - but if you keep getting distracted by small inconveniences, you lose momentum.</p>
+
+<h4>The Power of Small Daily Habits</h4>
+
+<p>One of the most powerful stories he shared was from his own life.</p>
+
+<p>At just 15 years old, preparing for board exams, he was taught a lesson that stayed with him forever - <b>waking up early.</b></p>
+
+<p>Not just waking up, but owning those early morning hours.</p>
+
+<li>• No distractions</li>
+<li>• No noise</li>
+<li>• No competition</li>
+<li>• Just you and your goal.</li>
+
+<p>That simple habit gave him a head start every single day - something most students ignore.</p>
+
+<p>And over time, these small habits compound into something big.</p>
+
+<h4>Discipline Is Built in Small Actions</h4>
+
+<p>Another subtle but important message from his talk:</p>
+
+<p><b>Discipline is not just about studying.</b></p>
+
+<p>It reflects in:</p>
+
+<li>• Doing your own work</li>
+<li>• Managing your routine</li>
+<li>• Respecting time</li>
+<li>• Taking responsibility</li>
+
+<p>These small behaviors shape your mindset - and that mindset decides your consistency.</p>
+
+<h4>Clarity of Purpose Changes Everything</h4>
+
+<p>One of the most relatable insights:</p>
+
+<p><b>"If your purpose is clear, your problems become small."</b></p>
+
+<p>Most students struggle not because they lack resources, but because they lack clarity.</p>
+
+<p>They keep thinking:</p>
+
+<li>• Where should I sit?</li>
+<li>• Which notes should I use?</li>
+<li>• Which batch is better?</li>
+
+<p>But toppers think differently:</p>
+
+<li>• What do I want?</li>
+<li>• Where am I going?</li>
+
+<p>Dr. Apurv Mehra beautifully compares it to a Google Maps destination.</p>
+
+<p>If you know where you want to go, the path becomes easier - no matter where you start.</p>
+
+<h4>Don't Lose Focus Over Small Things</h4>
+
+<p>He also points out something very real:</p>
+
+<p>Students today are working hard-waking up early, attending classes, and studying long hours.</p>
+
+<p>But they often lose consistency because of:</p>
+
+<li>• Small distractions</li>
+<li>• Minor discomforts</li>
+<li>• Overthinking</li>
+
+<p><b>"Don't lose what you've built because of small things."</b></p>
+
+<p>That consistency you've created? That's your biggest strength.</p>
+
+<p>Protect it.</p>
+
+<h4>Conclusion</h4>
+
+<p><b>"Small Adjustments Today = Dream Medical Seat Tomorrow"</b> is not just a statement - it's a strategy.</p>
+
+<p>He reminds us that success doesn't come from one big decision. It comes from hundreds of small, almost invisible choices you make every day.</p>
+
+<li>• Choosing to study even when things aren't perfect</li>
+<li>• Choosing discipline over comfort</li>
+<li>• Choosing your goal over distractions</li>
+
+<p>If you can master these small adjustments, you won't just prepare better - you'll move closer, step by step, to that dream medical seat.</p>
+
+<p>Because in the end, it's not about where you study…<br/><b>It's about how badly you want it.</b></p>
+`,
+  },
+  {
     id: "the-power-of-guidance-why-one-mentor-can-change-your-academic-journey",
     blogDate: "March 06, 2026",
     image:
@@ -44,9 +197,9 @@ const blogData = [
 
 <p>Say you decide to study 12 hours tomorrow. Do it. Not 10. Not "well, I got distracted but the quality was good for 6 hours." Actually do 12.</p>
 
-<p>Here's the uncomfortable truth about med school: <b>quantity builds quality.</b> Your efficiency doesn't magically appear—it comes from grinding consistently over long hours until your brain gets faster at processing information.</p>
+<p>Here's the uncomfortable truth about med school: <b>quantity builds quality.</b> Your efficiency doesn't magically appear-it comes from grinding consistently over long hours until your brain gets faster at processing information.</p>
 
-<p>And those 4-hour exam blocks? Start practicing them now. Sit for 4 straight hours without moving. Your body—literally your ability to sit that long—needs training too. Otherwise exam day hits and suddenly you're fidgeting, anxious, can't focus because you've never done this before.</p>
+<p>And those 4-hour exam blocks? Start practicing them now. Sit for 4 straight hours without moving. Your body-literally your ability to sit that long-needs training too. Otherwise exam day hits and suddenly you're fidgeting, anxious, can't focus because you've never done this before.</p>
 
 <h4>When Plans Fall Apart (They Will)</h4>
 
@@ -60,11 +213,11 @@ const blogData = [
 
 <p>Why am I telling you this? Because obstacles will come. Unexpected stuff will wreck your plans. But you can either spend time blaming circumstances or you can find a solution and keep moving.</p>
 
-<p>Your exam prep will have disasters—topics that don't click, mock tests you bomb, weeks where nothing seems to stick. That's when having that one person matters. They help you pivot instead of spiral.</p>
+<p>Your exam prep will have disasters-topics that don't click, mock tests you bomb, weeks where nothing seems to stick. That's when having that one person matters. They help you pivot instead of spiral.</p>
 
 <h4>Stop Blaming the Ground When You Fall</h4>
 
-<p>There's this thing parents do when kids fall—they tell them to hit the ground. "Bad ground! It made you fall!"</p>
+<p>There's this thing parents do when kids fall-they tell them to hit the ground. "Bad ground! It made you fall!"</p>
 
 <p>My father never did that. He said, <b>"Get up."</b></p>
 
@@ -72,7 +225,7 @@ const blogData = [
 
 <p>In med school, you'll fall constantly. Bad test scores. Concepts you can't grasp. Days you can't focus. Stop looking for something external to blame. The gate closed on time. You didn't rush. That's on you.</p>
 
-<p>But here's the flip side—learn from kids in one way. When they fall, they get back up immediately. When they want something, nothing stops them. They don't overthink, don't get paralyzed by "what ifs."</p>
+<p>But here's the flip side-learn from kids in one way. When they fall, they get back up immediately. When they want something, nothing stops them. They don't overthink, don't get paralyzed by "what ifs."</p>
 
 <p>Sometimes being a little reckless about chasing what you want works better than being perfectly cautious.</p>
 
