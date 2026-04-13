@@ -1,5 +1,243 @@
 const blogData = [
   {
+    id: "what-cricket-truly-teaches-about-cracking-neet-pg-inicet-raw-and-real-talk-by-dr-apurv-mehra",
+    blogDate: "April 13, 2026",
+    image:
+      "https://cdn.dribbble.com/userupload/47375271/file/4d7decff5e9c7d35aea0cf8a186c1992.jpg",
+    alt: "A Raw and Real Talk by Dr. Apurv Mehra",
+    metaTitle:
+      "What Cricket Truly Teaches About Cracking NEET PG & INICET - A Raw and Real Talk by Dr. Apurv Mehra",
+    metaDesc:
+      "Cricket teaches patience, strategy, and resilience-key lessons to crack NEET PG & INICET, as shared by Dr. Apurv Mehra in this raw, real talk.",
+    author: "Dr. Apurv Mehra",
+    tags: [
+      "NEET PG",
+      "INICET",
+      "Medical Education",
+      "Motivation",
+      "Study Strategy",
+    ],
+    para: `If you're in the middle of your <b>NEET PG or INICET preparation…</b><br/>feeling overwhelmed, distracted, or even questioning yourself -
+
+<p>Pause for a moment.</p>
+
+<p>Because what you're about to read is not just another strategy or study plan.<br/>👉 It's guidance inspired by the real, raw insights shared by <b>Dr. Apurv Mehra</b> - someone who has seen closely what students go through during this phase.</p>
+
+<p>By the end of this, you won't just learn what to do - you'll quietly realize <b>where things might be going wrong.</b></p>
+
+<p>And chances are…<br/>👉 you'll relate more than you expect.</p>
+
+<p><b>Watch Video:</b> <a href="https://youtu.be/a4u1_dK5YWQ?si=73aHKEin2eMemYyA" target="_blank">What Cricket Teaches About Cracking NEET PG & INICET | Dr. Apurv Mehra Motivation</a></p>
+
+<h4>The Reality of Competitive Exams: "1 Question Changes Everything"</h4>
+
+<p>He starts with something every NEET PG aspirant already knows-but maybe hasn't fully accepted:</p>
+
+<li>• One question → same branch, different city</li>
+<li>• Two questions → branch changes</li>
+<li>• Three questions → see you next year</li>
+
+<p>This is not to scare you. This is to make you <b>understand the margin you're playing in.</b></p>
+
+<p>But then comes the real insight:</p>
+
+<p>👉 <b>Not every question in the exam matters.</b></p>
+
+<p>Some questions are just deviators.<br/>Questions that:</p>
+
+<li>• Feel unfamiliar</li>
+<li>• Look out of syllabus</li>
+<li>• Trigger panic</li>
+
+<p>And what do students do? They get stuck.</p>
+
+<p>Even after the exam, the first reaction is:</p>
+
+<p><b>"Yeh kya pooch liya?"</b></p>
+
+<p>But according to him, that question never decides your rank.</p>
+
+<p>What actually hurts you is:<br/>👉 <b>The question you knew… but got wrong because your mind was blocked.</b></p>
+
+<h4>The Cricket Analogy: Learning from Sachin Tendulkar</h4>
+
+<p>He brings in one of the most powerful analogies.</p>
+
+<p>Before playing, Sachin would:</p>
+
+<li>• Walk across the ground early in the morning</li>
+<li>• Check the grass, the dew</li>
+<li>• Understand the pitch</li>
+<li>• Identify the "good length" area</li>
+
+<p>And when he played?</p>
+
+<p>👉 He didn't focus on the bowler.<br/>👉 He focused on the <b>ball landing in that good length zone.</b></p>
+
+<p>That's it. That's what made him great.</p>
+
+<h4>The "Good Length" of NEET PG</h4>
+
+<p>Now comes the connection. Just like cricket has a good length-<br/>👉 <b>NEET PG & INICET also have a "good length."</b></p>
+
+<p>And here's the surprising truth he shares:</p>
+
+<p><b>From 2004 to 2026</b></p>
+
+<li>• Same topics</li>
+<li>• Same concepts</li>
+<li>• Same patterns</li>
+
+<p><b>Nothing has changed.</b></p>
+
+<p>The only difference:</p>
+
+<li>• NEET PG → surface level</li>
+<li>• INICET → deeper understanding</li>
+
+<p>👉 But the core topics remain the same.</p>
+
+<h4>How Students Go Wrong</h4>
+
+<p>Students think:</p>
+
+<li>• "Yeh bhi aa sakta hai"</li>
+<li>• "Woh bhi aa sakta hai"</li>
+<li>• "Sab kuch padhna hai"</li>
+
+<p>But exams don't reward that.</p>
+
+<p>They reward:<br/>👉 <b>Clarity on high-yield topics</b></p>
+
+<p>He gives a simple example:</p>
+
+<p>If you have limited time in orthopedics:</p>
+
+<li>• Study nerve injuries</li>
+<li>• Study arthritis</li>
+<li>• Study upper limb trauma</li>
+
+<p>👉 You can still solve ~70% of questions.</p>
+
+<p>That is your <b>good length.</b></p>
+
+<h4>Big Subjects vs Small Subjects</h4>
+
+<p>Another important concept:</p>
+
+<li>• Big subjects → help you cross the line</li>
+<li>• Small subjects → decide your rank and branch</li>
+
+<p>Most students ignore small subjects.</p>
+
+<p>And that's where they lose.</p>
+
+<h4>The Biggest Trap: Mental Blockers</h4>
+
+<p>After exams, students obsess over:</p>
+
+<li>• Rare questions</li>
+<li>• Unusual topics</li>
+<li>• "Out of syllabus" discussions</li>
+
+<p>But these are just<br/>👉 <b>Blockers</b></p>
+
+<p>They:</p>
+
+<li>• Distract you</li>
+<li>• Break your confidence</li>
+<li>• Affect your performance in known questions</li>
+
+<p>And that's exactly where rank is lost.</p>
+
+<h4>The Bhaskar Acharya Perspective: 90% Is You</h4>
+
+<p>He explains success using a concept inspired by Bhaskar Acharya.</p>
+
+<p>Breaking it down:</p>
+
+<li>• 50% effort → controlling your mind</li>
+<li>• 40% effort → controlling your distractions and desires</li>
+<li>• Remaining → strategy and environment</li>
+
+<p>That means:</p>
+
+<p><b>90% of this journey is you vs yourself</b></p>
+
+<p>Not competition. Not luck.</p>
+
+<p>Just:</p>
+
+<li>• Your focus</li>
+<li>• Your discipline</li>
+<li>• Your consistency</li>
+
+<h4>The Hard Truth About Discipline</h4>
+
+<p>He shares a very simple formula:</p>
+
+<p><b>Pick up the book. Study the whole day.</b> Sounds basic. But most students don't do it consistently.</p>
+
+<p>Key points:</p>
+
+<li>• Don't compromise on sleep</li>
+<li>• Avoid unnecessary socializing</li>
+<li>• Learn to say NO</li>
+<li>• Use time wisely</li>
+
+<p>Even saving 15 minutes daily can create a huge difference.</p>
+
+<h4>Excuses vs Goals</h4>
+
+<p>He calls out something most students relate to:</p>
+
+<li>• "Not feeling well"</li>
+<li>• "Not in mood"</li>
+<li>• "Will start tomorrow"</li>
+
+<p>And then says:</p>
+
+<p><b>Those who focus on limitations never reach their goals.</b></p>
+
+<p>Harsh-but real.</p>
+
+<h4>Defining Your Dream</h4>
+
+<p>Another powerful insight: <b>Don't keep your dream vague.</b></p>
+
+<p>Instead of:</p>
+
+<li>• "I want a good rank"</li>
+
+<p>Say:</p>
+
+<li>• "I want AIIMS"</li>
+<li>• "I want Radiology"</li>
+
+<p>Speak it. Repeat it and commit to it.</p>
+
+<p>Because: <b>Clarity turns dreams into responsibility</b></p>
+
+<h4>Final Message: That Stays With You</h4>
+
+<p>He ends with something simple, yet powerful:</p>
+
+<p><b>You can be down… but you can never be out.</b> And that's what makes his sessions different.</p>
+
+<h4>Why This Hits Different</h4>
+
+<p>Because this isn't just strategy.</p>
+
+<p>This is:</p>
+
+<li>• Understanding student psychology</li>
+<li>• Knowing real struggles</li>
+<li>• Giving practical direction</li>
+
+<p>And only someone who has seen thousands of students closely can connect life, cricket, and exams this way. That's what makes Dr. Apurv Mehra different.</p>
+`,
+  },
+  {
     id: "small-adjustments-today-dream-medical-seat-tomorrow-lesson-from-dr-apurv-mehra",
     blogDate: "March 26, 2026",
     image:

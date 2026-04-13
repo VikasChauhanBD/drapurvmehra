@@ -132,7 +132,13 @@
   </url>
 
  <url>
-    <loc>https://drapurv.com/blog/small-adjustments-today-dream-medical-seat-tomorrow-lessons-from-dr-apurv-mehra</loc>
+    <loc>https://drapurv.com/blog/small-adjustments-today-dream-medical-seat-tomorrow-lesson-from-dr-apurv-mehra</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://drapurv.com/blog/what-cricket-truly-teaches-about-cracking-neet-pg-inicet-raw-and-real-talk-by-dr-apurv-mehra</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
