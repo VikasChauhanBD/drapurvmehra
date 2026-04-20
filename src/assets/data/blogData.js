@@ -1,5 +1,128 @@
 const blogData = [
   {
+    id: "the-brutal-truth-about-pg-preparation-no-one-tells-you-by-dr-apurv-mehra",
+    blogDate: "April 20, 2026",
+    image:
+      "https://cdn.dribbble.com/userupload/47453126/file/c4fc076b469215b5c0846ad8529f2ae6.jpg",
+    alt: "The Brutal Truth About PG Preparation by Dr. Apurv Mehra",
+    metaTitle:
+      "The Brutal Truth About PG Preparation No One Tells You by Dr. Apurv Mehra",
+    metaDesc:
+      "Dr. Apurv Mehra reveals the harsh realities of PG prep-discipline, burnout, and strategy matter more than motivation alone for real success.",
+    author: "Dr. Apurv Mehra",
+    tags: [
+      "NEET PG",
+      "INI CET",
+      "Medical Education",
+      "Preparation Strategy",
+      "Motivation",
+    ],
+    para: `Here is another real talk by <b>Dr. Apurv Mehra</b> - someone many aspirants instantly connect with. Not because he uses big words or polished lines, but because he speaks exactly what students are actually going through. There's no sugarcoating here. No "everything will be fine" kind of comfort.
+
+<p>He talks about preparation the way it really feels - confusing, tiring, and sometimes frustrating.</p>
+
+<p>What makes his perspective different is simple: he understands both sides. The doctor you want to become… and the student you are right now. And in this session, he puts forward a few truths that most people either ignore or realize too late.</p>
+
+<p><b>Video Link:</b> <a href="https://www.youtube.com/watch?v=9AqN0VtK7eA" target="_blank">The Brutal Truth About PG Preparation No One Tells You | Dr. Apurv Mehra</a></p>
+
+<h4>Your Problem Statement Is Clear - But Is Your Mind?</h4>
+
+<p>If you're preparing for <b>NEET PG or INI-CET</b>, your goal is actually very simple: <b>You want a PG seat.</b> That's it.</p>
+
+<p>But somewhere along the way, things get messy. You start comparing, overthinking, doubting your strategy, changing resources… and slowly, that simple goal starts feeling complicated.</p>
+
+<p>The problem isn't the exam. <b>The problem is lack of clarity.</b> Once you're clear about what you want, half the confusion disappears on its own.</p>
+
+<h4>Degrees Don't Define You (But Your Decisions Will)</h4>
+
+<p>One of the most honest things discussed here is this:</p>
+
+<p><b>Patients don't really care about how many degrees you have.<br/>They care about whether you can treat them well.</b></p>
+
+<p>There are MBBS doctors doing really well-sometimes even better than postgraduates.</p>
+
+<p>So if you've chosen this path, it has to be your decision.</p>
+
+<p>Because when things get tough (and they will), only a strong reason will keep you going.</p>
+
+<h4>The Biggest Trap: Perfection</h4>
+
+<p>This is where most students get stuck.</p>
+
+<p>You try to make one subject perfect. You revise the same notes again and again. You wait for the "right time" to go all in.</p>
+
+<p>And in all of this, one thing gets missed-<b>completion.</b> In PG exams, completion matters more than perfection.</p>
+
+<p>You're solving 200 questions. Even leaving a small portion can cost you a lot. Perfection feels satisfying. But progress is what actually moves you forward.</p>
+
+<h4>The "Anything" Approach Isn't Working</h4>
+
+<p>A lot of students are preparing… but without direction.</p>
+
+<p>"What are you studying today?"<br/>-Anything.</p>
+
+<p>"What's your plan?"<br/>-Let's see.</p>
+
+<p>That's the problem.</p>
+
+<p>Now compare that with:<br/><b>"I want a Medicine seat in AIIMS Delhi."</b></p>
+
+<p>That kind of clarity changes how you study, what you focus on, and how seriously you take each day.</p>
+
+<h4>Why People Don't Make It</h4>
+
+<p>It's not because they're not capable.</p>
+
+<p>It's because:</p>
+
+<li>• They think a lot, but don't act enough</li>
+<li>• They plan, but don't follow through</li>
+<li>• They wait instead of starting</li>
+
+<p>Preparation is not complicated. But it does demand consistency-and that's where most people struggle.</p>
+
+<h4>The 10-Minute Lie</h4>
+
+<p>Every morning, there's a small decision:</p>
+
+<p>Get up… or sleep 10 more minutes. And almost every time, we choose sleep. But the same 10 minutes? You'll wish for them in the exam hall. That's the irony. <b>Time isn't less during exams. We just don't value it enough during preparation.</b></p>
+
+<h4>Stop Waiting for the Perfect Time</h4>
+
+<p>A lot of people are still waiting:</p>
+
+<li>• For better notes</li>
+<li>• For a proper schedule</li>
+<li>• For motivation</li>
+
+<p>But nothing like that suddenly appears.</p>
+
+<p><b>You don't start when everything is sorted.<br/>You start… and then things slowly fall into place.</b></p>
+
+<h4>It's About How You Finish</h4>
+
+<p>Even Usain Bolt wasn't always the fastest at the start. But his finish? That's what made the difference. Same with preparation. You don't need a perfect beginning. You need to stay in the race long enough to finish strong.</p>
+
+<h4>Final Thoughts</h4>
+
+<li>• Be clear about what you want</li>
+<li>• Focus on finishing your syllabus</li>
+<li>• Respect your time</li>
+<li>• Don't wait for perfect conditions</li>
+<li>• Just show up, every day</li>
+
+<p>Because in the end, your result won't depend on how motivated you felt.</p>
+
+<p><b>It will depend on how consistent you were.</b></p>
+
+<h4>A Small Push If You Need Direction</h4>
+
+<p>If you're someone who is focusing on Orthopedics and wants a more structured, concept-based way of studying, you can explore <a href="https://conceptualorthopedics.com/" target="_blank"><b>Conceptual Orthopedics</b></a>. It's built to simplify things so you're not just memorizing, but actually understanding.</p>
+
+<p>And if you're still figuring out how to approach different subjects or want a more streamlined preparation across branches, the <a href="https://econceptual.com/" target="_blank"><b>eConceptual platform</b></a> is worth to subscribe. It brings everything together in one place so you're not jumping between too many resources.</p>
+`,
+  },
+  {
     id: "what-cricket-truly-teaches-about-cracking-neet-pg-inicet-raw-and-real-talk-by-dr-apurv-mehra",
     blogDate: "April 13, 2026",
     image:

@@ -50,96 +50,102 @@
   <url>
     <loc>https://drapurv.com/blogs</loc>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/neet-pg-motivation-rank-respect-&amp;-your-future-by-dr-apurv-mehra</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/the-childhood-lesson-that-changed-my-life-dr-apurv-mehra-motivation-for-neet-pg-&amp;-inicet</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/mcqs-mindset-and-the-30-day-formula-to-crack-ini-cet-by-dr-apurv-mehra</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/being-a-doctor-isnt-easy-but-nothing-is-more-beautiful-a-message-by-dr-apurv-mehra</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/spine-surgery-success-story-at-vidya-jeevan-from-immobility-to-walking-again</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/understanding-knee-implants-best-options-materials-&amp;-robotic-compatibility-explained-by-dr-apurv-mehra</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/30-days-to-fmge-a-practical-no-fluff-plan-by-dr-apurv-mehra</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/what-i-learned-when-i-was-the-only-one-without-a-rank-at-maulana-azad-medical-college</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/the-phase-of-entrance-exams-and-why-it-hurts-so-much-insight-by-dr-apurv-mehra</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/the-truth-behind-the-coat-read-before-you-go-for-neet-pg-ini-cet-and-fmge</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/3rd-co-trauma-pinnacle-course-elevating-orthopedic-trauma-expertise</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
    <url>
     <loc>https://drapurv.com/blog/focus-shapes-your-future-why-what-you-concentrate-on-determines-who-you-become</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/the-power-of-guidance-why-one-mentor-can-change-your-academic-journey</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
  <url>
     <loc>https://drapurv.com/blog/small-adjustments-today-dream-medical-seat-tomorrow-lesson-from-dr-apurv-mehra</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://drapurv.com/blog/what-cricket-truly-teaches-about-cracking-neet-pg-inicet-raw-and-real-talk-by-dr-apurv-mehra</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://drapurv.com/blog/the-brutal-truth-about-pg-preparation-no-one-tells-you-by-dr-apurv-mehra</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>
